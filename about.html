@@ -66,6 +66,44 @@
 </header>
 
 
+<div id="mobileMenu" class="fixed top-0 left-0 w-72 h-full bg-white shadow-xl z-50 -translate-x-full transition-all duration-300">
+  <div class="p-6 text-right">
+
+  
+    <button onclick="closeMenu()" class="text-2xl mb-6">✖</button>
+
+    <nav class="flex flex-col gap-4 text-lg font-medium">
+      <a href="index.html">الرئيسية</a>
+      <a href="about.html">عن الموقع</a>
+      <a href="beginning-and-end.html">بداية ونهاية</a>
+      <a href="kuwaiti-kitchen.html">المطبخ الكويتي</a>
+      <a href="customs-and-occasions.html">عادات ومناسبات</a>
+      <a href="folk-arts.html">فنون شعبية</a>
+      <a href="life-of-the-sea.html">حياة البحر</a>
+      <a href="bedouin-life.html">حياة البادية</a>
+        <a href="folk-games.html">العاب شعبيه</a>
+      <a href="proverbs.html">أمثال</a>
+      <a href="professions-from-the-past.html">مهن من الماضي</a>
+    </nav>
+  </div>
+</div>
+
+
+<div id="overlay" onclick="closeMenu()" class="fixed inset-0 bg-black/50 z-40 hidden"></div>
+
+<script>
+  function openMenu() {
+    document.getElementById("mobileMenu").classList.remove("-translate-x-full");
+    document.getElementById("overlay").classList.remove("hidden");
+  }
+  function closeMenu() {
+    document.getElementById("mobileMenu").classList.add("-translate-x-full");
+    document.getElementById("overlay").classList.add("hidden");
+  }
+</script>
+
+
+
 <section class="w-full bg-[#f7ebe6] py-16" dir="rtl">
   <div class="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
 
@@ -429,3 +467,4 @@
 </footer>
 </body>
 </html>
+
