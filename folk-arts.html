@@ -1,0 +1,347 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>صوت سدرة — الرئيسية</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: { cairo: ['Cairo', 'sans-serif'] },
+        }
+      }
+    }
+  </script>
+  <style> body { font-family: 'Cairo', sans-serif; } .hero-title { text-shadow: 0 6px 18px rgba(0,0,0,0.45); } </style>
+</head>
+
+<body class="bg-white text-gray-800">
+ <header class="w-full bg-white shadow-sm">
+  <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+
+    
+    <a href="index.html" class="flex items-center gap-3">
+      <img src="sedra-wave-small-Yle47l0kxaiqD6Bv.avif" alt="logo" class="w-12 h-12 object-contain rounded-md">
+      <span class="font-bold text-lg">صوت سدرة</span>
+    </a>
+
+
+      <nav class="hidden lg:flex items-center gap-6 text-sm">
+  <a href="index.html" class="hover:text-green-700">الرئيسية</a>
+  <a href="about.html" class="hover:text-green-700">عن الموقع</a>
+  <a href="beginning-and-end.html" class="hover:text-green-700">بداية ونهاية</a>
+  <a href="kuwaiti-kitchen.html" class="hover:text-green-700">المطبخ الكويتي</a>
+  <a href="customs-and-occasions.html" class="hover:text-green-700">عادات ومناسبات</a>
+  <a href="folk-arts.html" class="hover:text-green-700">فنون شعبية</a>
+  <a href="life-of-the-sea.html" class="hover:text-green-700">حياة البحر</a>
+   <a href="folk-games.html" class="hover:text-green-700">العاب شعبيه</a>
+  <a href="bedouin-life.html" class="hover:text-green-700">حياة البادية</a>
+  <a href="proverbs.html" class="hover:text-green-700">أمثال</a>
+  <a href="professions-from-the-past.html" class="hover:text-green-700">مهن من الماضي</a>
+</nav>
+
+
+   
+    <div class="flex items-center gap-3">
+
+      <a href="index - eng.html" class="text-gray-600">
+      <button class="hidden sm:inline-flex items-center gap-2 px-3 py-1 border rounded-full text-sm text-gray-600">
+
+        English
+      </button>
+
+    </a>
+      <a href="index - eng.html" class="text-gray-600"></a>
+
+     
+      <button onclick="openMenu()" class="lg:hidden text-3xl text-gray-700">
+        ☰
+      </button>
+
+    </div>
+
+  </div>
+</header>
+
+
+<div id="mobileMenu" class="fixed top-0 left-0 w-72 h-full bg-white shadow-xl z-50 -translate-x-full transition-all duration-300">
+  <div class="p-6 text-right">
+
+  
+    <button onclick="closeMenu()" class="text-2xl mb-6">✖</button>
+
+    <nav class="flex flex-col gap-4 text-lg font-medium">
+      <a href="index.html">الرئيسية</a>
+      <a href="about.html">عن الموقع</a>
+      <a href="beginning-and-end.html">بداية ونهاية</a>
+      <a href="kuwaiti-kitchen.html">المطبخ الكويتي</a>
+      <a href="customs-and-occasions.html">عادات ومناسبات</a>
+      <a href="folk-arts.html">فنون شعبية</a>
+      <a href="life-of-the-sea.html">حياة البحر</a>
+      <a href="bedouin-life.html">حياة البادية</a>
+        <a href="folk-games.html">العاب شعبيه</a>
+      <a href="proverbs.html">أمثال</a>
+      <a href="professions-from-the-past.html">مهن من الماضي</a>
+            <a href="index - eng.html">       English
+</a>
+
+    </nav>
+  </div>
+</div>
+
+
+<div id="overlay" onclick="closeMenu()" class="fixed inset-0 bg-black/50 z-40 hidden"></div>
+
+<script>
+  function openMenu() {
+    document.getElementById("mobileMenu").classList.remove("-translate-x-full");
+    document.getElementById("overlay").classList.remove("hidden");
+  }
+  function closeMenu() {
+    document.getElementById("mobileMenu").classList.add("-translate-x-full");
+    document.getElementById("overlay").classList.add("hidden");
+  }
+</script>
+
+
+
+
+
+
+<section class="bg-[#f7ebe6] py-10 px-6" dir="rtl">
+  <div class="max-w-6xl mx-auto">
+
+    
+    <h2 class="text-3xl font-bold text-[#222] mb-8 text-center">
+ﺟﻠﺴﺔ ﻓﻨﻮﻥ شعبية
+    </h2>
+
+<div class="flex flex-wrap md:flex-nowrap gap-8 justify-center items-start mt-10">
+
+  <div class="flex justify-center">
+    <img 
+      src="assest/فنون1.avif" 
+      alt="قص القماش" 
+      class="w-[400px] h-[400px] object-cover rounded-none shadow-md"
+    />
+  </div>
+<div class="flex justify-center">
+    <img 
+      src="assest/فنون2.avif" 
+      alt="قص القماش" 
+      class="w-[800px] h-[400px] object-cover rounded-none shadow-md"
+    />
+  </div>
+
+</div>
+
+
+</div>
+  </div>
+</section>
+
+
+<section class="bg-white py-10 px-6" dir="rtl">
+  <div class="max-w-6xl mx-auto">
+
+    
+    <h2 class="text-3xl font-bold text-[#222] mb-8 text-center">
+ﻓﻦ ﺍﻟﻔﺮﻳﺴﻪ
+    </h2>
+       <p class="text-lg">الفريسة تصغير أنثى الفرس، وهي رقصة معروفة ومميزة تؤديها فرقة من الرجال حيث تصنع دمية على شكل فرس تُكسى بأقمشة مزركشة، وعليها بعض الحلي ويقوم راقص بتعليقها على عنقه حاملها و هو داخلها و غالبا ما يكون في وسط الفرقة حيث يؤدي الرقصة على نغمات الطبول و الدفوف. تؤدى هذه الرقصة في الأعياد الوطنية و الدينية . تتحرك متمايلة فيها الفرس الى اليمين و الى الشمال و الى الامام و الخلف ، كما لو أنه يتجنب هجوم الرجلين الآخرين ، فالرجل حامل السيف يحاول قتل الفارس ، أما العجوز الذي يحمل مغزلا فهو ينتظر الى ان يموت الفارس و حامل السيف ليستولي على السيف و الفرس ، و يشجع المغنون الفارس على النجاة بالعزف بقوة على الطبول و الدفوف و هم يغنون.
+
+
+</p>
+
+<div class="flex flex-wrap md:flex-nowrap gap-8 justify-center items-start mt-10">
+
+  <div class="flex justify-center">
+    <img 
+      src="assest/فنون3.avif" 
+      alt="قص القماش" 
+      class="w-[600px] h-[400px] object-cover rounded-none shadow-md"
+    />
+  </div>
+ <div class="flex justify-center">
+    <img 
+      src="assest/فنون4.avif" 
+      alt="قص القماش" 
+      class="w-[600px] h-[400px] object-cover rounded-none shadow-md"
+    />
+  </div>
+
+</div>
+  </div>
+</section>
+
+<section class="bg-[#f7ebe6] py-10 px-6" dir="rtl">
+  <div class="max-w-6xl mx-auto">
+
+    
+    <h2 class="text-3xl font-bold text-[#222] mb-8 text-center">
+ﺍﻟﻄﻨﺒﻮﺭﻩ
+    </h2>
+
+<p class="text-lg">الطنبورة رقصة أفريقية جاء بها العمانيون للكويت، وهي تعتمد على النغمة الخماسية البطيئة. كان في الكويت قديمًا فرقة تسمى (الطنبورة). تقدم عروضها في (الميدان) بمنطقة الشرق عند دروازة عبدالرزاق. ومن المعروف أن رقصة الطنبورة تعتمد على “الراقص” الذي يضع في وسطه مجموعة كبيرة من الأظفار (أظفار الأغنام) المتشابكة مع بعضها في حبل يلتف حول وسطه، ويحرك خصره يمينًا وشمالًا فيحدث صوتًا منسجمًا متوازنًا مع الإيقاع. ويستند الراقص على عصا طويلة. 
+
+</p>
+ <h2 class="text-1xl font-bold text-[#222] mb-8 text-center">
+عدد آلات الطنبورة 6 وهي كالتالي:
+
+    </h2>
+
+  <h2 class="text-1xl font-bold text-[#222] mb-2 text-center"> الطنبورة :
+
+    </h2>
+       <p class="text-center">وهي آلة وترية.
+</p>
+   <h2 class="text-1xl font-bold text-[#222] mb-2 text-center">المنجور:
+
+    </h2>
+       <p class="text-center">ويصنع من أظلاف الماعز، التي تثبت على قطعة من الخيش أو القماش، وتربط في وسط أحد الرجال المختصين، ويصدر منها صوت (خرخشة) ذات نغمة مميزة تتناسب مع العزف على الطنبورة.
+أربع طبول، كل اثنين  على جنب من جوانب عازف الطنبورة.
+</p>
+
+<div class="flex flex-wrap md:flex-nowrap gap-8 justify-center items-start mt-10">
+
+  <div class="flex justify-center">
+    <img 
+      src="assest/فنون5.avif" 
+      alt="قص القماش" 
+      class="w-[400px] h-[400px] object-cover rounded-none shadow-md"
+    />
+  </div>
+ <div class="flex justify-center">
+    <img 
+      src="assest/فنون6.avif" 
+      alt="قص القماش" 
+      class="w-[400px] h-[400px] object-cover rounded-none shadow-md"
+    />
+  </div>
+<div class="flex justify-center">
+    <img 
+      src="assest/فنون7.avif" 
+      alt="قص القماش" 
+      class="w-[400px] h-[400px] object-cover rounded-none shadow-md"
+    />
+  </div>
+
+</div>
+  </div>
+</section>
+
+<section class="bg-white py-1 px-6" dir="rtl">
+  <div class="max-w-6xl mx-auto">
+    
+  <h2 class="text-3xl font-bold text-[#222] mb-6 text-center"> ﻓﻦ ﺍﻟﻌﺮضه
+:
+
+    </h2>
+        <p class="text-center">العرضة اسم يطلق على لون من ألوان الفنون الشعبية المنتشرة في الجزيرة العربية، وهي فن جماعي يؤدي غنائه جماعي بمصاحبة الحركة. يشارك فيه عدد كبير من الرجال. و تتسم كذلك بالطابع الحماسي ،وتسمى كذلك (الحدوة). ومن الجائز أن هذا الاسم أخذ من الحداء ، و يقال أحدوا عليهم أي اتجهوا اليهم بِعِدة الحرب . و يكثر أداء العرضات في شتى أنحاء البلاد في الأعياد و المناسبات الوطنية بصفة خاصة . و مازلنا حتى الآن نشاهد حملة البنادق و السيوف يقومون بدورهم في أداء العرضات كعنصر أساسي في تشكيل المجموعات المشاركة ، رمزا للمشاعر الجياشة تجاه الوطن و الذود عنه.  
+
+</p>
+<h2 class="text-2xl font-bold text-[#222] mb-6 text-center"> وتقسم الرجال في فن العرضة إلى مجموعات:
+
+:
+
+    </h2>
+        <p class="text-center">مجموعة حملة الطبول يضربون عليها بإيقاع جميل متوافق مع انشاد الصفوف كما يوجد بالوسط حامل البيرق (العلم) و تقام الرقصة التي عادة ما تكون عبارة عن رفع للسيف و تمايل جهه اليمين و الشمالرمع التقدم لعدد من الخطوات إلى الأمام .ويكون عادة المنشدون في صف واحد و تستخدم فيه أنواع مختلفة من الطبول يطلق على الكبيرة منها طبول التخمير، و الصغيرة طبول التثليث . و يلبس الراقص (محزما) و هو عبارة عن جله) يوضع بشكل متقاطع و كان قديما ذا أهمية لوضع الرصاص للبنادق. وتُعرف العرضة بأنها رقصة حرب، إذ يتقابل فيها الرجال على صفين متقابلين، يحملون السيوف أو البنادق. وتُقام العرضة في الأعياد الوطنية والمناسبات الخاصة.
+
+</p>
+<h2 class="text-2xl font-bold text-[#222] mb-6 text-center"> بعض من قصائد العرضة الكويتية:
+
+
+:
+
+    </h2>
+      <p class="text-lg text-center">يا دار لنا حقك علينا يوم الضيق ما نبقى شفاعة</p>
+    <p class="text-lg text-center">و اخلي السلايل في أيدينا شبعة لي من عقب المجاعة</p>
+    <p class="text-lg text-center">لو ما رادة الله مامشيّنا واستقينا المعادي سم ساعة</p>
+    <p class="text-lg text-center">شيخنا حنا شيوب الحرايب لا طفت حنا سنا نارها</p>
+    <p class="text-lg text-center">لا تطيع بنا كثير السبايب قوم لا جا وش كارهـا</p>
+    <p class="text-lg text-center">أدب المدّب ولا هو بثايب في يبن القوم و لا يساها</p>
+    <p class="text-lg text-center">وده</p>
+
+<div class="flex flex-wrap md:flex-nowrap gap-8 justify-center items-start mt-10">
+  
+  <div class="flex justify-center">
+    <img 
+      src="assest/فنون9.avif" 
+      alt="قص القماش" 
+      class="w-[400px] h-[300px] object-cover rounded-none shadow-md"
+    />
+  </div>
+ <div class="flex justify-center">
+    <img 
+      src="assest/فنون10.avif" 
+      alt="قص القماش" 
+      class="w-[400px] h-[300px] object-cover rounded-none shadow-md"
+    />
+  </div>
+<div class="flex justify-center">
+    <img 
+      src="assest/فنون11.avif" 
+      alt="قص القماش" 
+      class="w-[400px] h-[300px] object-cover rounded-none shadow-md"
+    />
+  </div>
+  <div class="flex justify-center">
+    <img 
+      src="assest/فنون12.avif" 
+      alt="قص القماش" 
+      class="w-[400px] h-[300px] object-cover rounded-none shadow-md"
+    />
+  </div>
+</div>
+  </div>
+</section>
+
+<footer class="w-full bg-[#835034] py-10 px-5 md:px-10" dir="rtl">
+  <div class="w-full flex flex-col md:flex-row justify-between items-center md:items-start gap-8">
+
+    
+    <div class="text-white flex flex-col items-center md:items-end text-center md:text-right">
+      
+      <div class="flex flex-col md:flex-row items-center md:gap-3 mb-8">
+        <img src="sedra-wave-small-Yle47l0kxaiqD6Bv.avif" class="w-20 mb-2 md:mb-0">
+        <h1 class="text-2xl font-bold">صوت سدرة</h1>
+      </div>
+
+      
+    
+      <a href="https://www.instagram.com/sawtsidra?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" >
+      <div class="flex items-center gap-3 mb-2 justify-center md:justify-start">
+        <svg class="w-7 h-7" fill="none" stroke="white" stroke-width="1.5" viewBox="0 0 24 24">
+          <rect x="3" y="3" width="18" height="18" rx="5"></rect>
+          <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+          <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+        </svg>
+      </div>
+      </a>
+
+      <span class="text-lg">تواصل معنا:</span>
+      <p class="text-lg mb-1">+965-99911612</p>
+      <a href="mailto:Bodouralmualii@sawtsidra.com" class="underline text-[#e9d8c9]">
+        Bodouralmualii@sawtsidra.com
+      </a>
+    </div>
+
+
+    <div class="flex flex-col items-center md:items-start">
+      <img 
+        src="footer-m7VDLgX2oMU7v3Ng.avif"
+        class="w-full max-w-[420px] h-auto rounded-md shadow-lg"
+      >
+      <p class="text-white text-sm mt-3 text-center md:text-left">
+        © 2025. جميع الحقوق محفوظة.
+      </p>
+    </div>
+
+  </div>
+</footer>
+</body>
+</html>
+
