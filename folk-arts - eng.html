@@ -1,0 +1,255 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sedra Voice — Home</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: { cairo: ['Cairo', 'sans-serif'] },
+        }
+      }
+    }
+  </script>
+  <style> body { font-family: 'Cairo', sans-serif; } .hero-title { text-shadow: 0 6px 18px rgba(0,0,0,0.45); } </style>
+</head>
+
+<body class="bg-white text-gray-800">
+ <header class="w-full bg-white shadow-sm">
+  <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+
+    <a href="index - eng.html" class="flex items-center gap-3">
+      <img src="sedra-wave-small-Yle47l0kxaiqD6Bv.avif" alt="logo" class="w-12 h-12 object-contain rounded-md">
+      <span class="font-bold text-lg">Sedra Voice</span>
+    </a>
+
+      <nav class="hidden lg:flex items-center gap-6 text-sm">
+        <a href="index - eng.html" class="hover:text-green-700">Home</a>
+        <a href="about - eng.html" class="hover:text-green-700">About</a>
+        <a href="beginning-and-end - eng.html" class="hover:text-green-700">Beginning and End</a>
+        <a href="kuwaiti-kitchen - eng.html" class="hover:text-green-700">Kuwaiti Kitchen</a>
+        <a href="customs-and-occasions - eng.html" class="hover:text-green-700">Customs and Occasions</a>
+        <a href="folk-arts - eng.html" class="hover:text-green-700">Folk Arts</a>
+        <a href="life-of-the-sea - eng.html" class="hover:text-green-700">Life of the Sea</a>
+        <a href="folk-games - Copy.html" class="hover:text-green-700">Folk Games</a>
+        <a href="bedouin-life - eng.html" class="hover:text-green-700">Bedouin Life</a>
+        <a href="proverbs - eng.html" class="hover:text-green-700">Proverbs</a>
+        <a href="professions-from-the-past - Copy.html" class="hover:text-green-700">Professions from the Past</a>
+      </nav>
+
+    <div class="flex items-center gap-3">
+      <a href="index.html" class="text-gray-600">
+      
+      <button class="hidden sm:inline-flex items-center gap-2 px-3 py-1 border rounded-full text-sm text-gray-600">
+        Kuwait
+      </button></a>
+
+      <a href="#" class="text-gray-600"></a>
+      <button onclick="openMenu()" class="lg:hidden text-3xl text-gray-700">
+        ☰
+      </button>
+    </div>
+
+  </div>
+</header>
+
+
+<div id="mobileMenu" class="fixed top-0 left-0 w-72 h-full bg-white shadow-xl z-50 -translate-x-full transition-all duration-300">
+  <div class="p-6 text-right">
+    <button onclick="closeMenu()" class="text-2xl mb-6">✖</button>
+    <nav class="flex flex-col gap-4 text-lg font-medium">
+      <a href="index - eng.html">Home</a>
+      <a href="about - eng.html">About</a>
+      <a href="beginning-and-end - eng.html">Beginning and End</a>
+      <a href="kuwaiti-kitchen - eng.html">Kuwaiti Kitchen</a>
+      <a href="customs-and-occasions - eng.html">Customs and Occasions</a>
+      <a href="folk-arts - eng.html">Folk Arts</a>
+      <a href="life-of-the-sea - eng.html">Life of the Sea</a>
+      <a href="bedouin-life - eng.html">Bedouin Life</a>
+      <a href="folk-games - Copy.html">Folk Games</a>
+      <a href="proverbs - eng.html">Proverbs</a>
+      <a href="professions-from-the-past - Copy.html">Professions from the Past</a>
+            <a href="index.html">الكويت</a>
+
+    </nav>
+  </div>
+</div>
+<div id="overlay" onclick="closeMenu()" class="fixed inset-0 bg-black/50 z-40 hidden"></div>
+
+<script>
+  function openMenu() {
+    document.getElementById("mobileMenu").classList.remove("-translate-x-full");
+    document.getElementById("overlay").classList.remove("hidden");
+  }
+  function closeMenu() {
+    document.getElementById("mobileMenu").classList.add("-translate-x-full");
+    document.getElementById("overlay").classList.add("hidden");
+  }
+</script>
+
+
+<section class="bg-[#f7ebe6] py-10 px-6" dir="ltr">
+  <div class="max-w-6xl mx-auto">
+
+    <h2 class="text-3xl font-bold text-[#222] mb-8 text-center">
+      Folk Arts Gathering
+    </h2>
+
+    <div class="flex flex-wrap md:flex-nowrap gap-8 justify-center items-start mt-10">
+      <div class="flex justify-center">
+        <img 
+          src="assest/فنون1.avif" 
+          alt="Folk arts gathering scene 1" 
+          class="w-[400px] h-[400px] object-cover rounded-none shadow-md"
+        />
+      </div>
+      <div class="flex justify-center">
+        <img 
+          src="assest/فنون2.avif" 
+          alt="Folk arts gathering scene 2" 
+          class="w-[800px] h-[400px] object-cover rounded-none shadow-md"
+        />
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section class="bg-white py-10 px-6" dir="ltr">
+  <div class="max-w-6xl mx-auto">
+
+    <h2 class="text-3xl font-bold text-[#222] mb-8 text-center">
+      Al-Fareesa Dance
+    </h2>
+    <p class="text-lg">
+      “Al-Fareesa” (meaning little mare) is a famous traditional dance performed by a group of men. A doll shaped like a horse is made, covered with colorful fabrics and decorated with jewelry. A dancer wears it around his neck and performs inside it, usually at the center of the group, moving to the rhythms of drums and tambourines. The dance is performed during national and religious celebrations. The horse sways right, left, forward, and backward, as if avoiding attacks. One man with a sword tries to strike the rider, while an old man with a spindle waits to seize the horse and sword. Singers encourage the rider to escape by intensifying the drumbeats and chants.
+    </p>
+
+    <div class="flex flex-wrap md:flex-nowrap gap-8 justify-center items-start mt-10">
+      <div class="flex justify-center">
+        <img src="assest/فنون3.avif" alt="Al-Fareesa dance scene 1" class="w-[600px] h-[400px] object-cover rounded-none shadow-md"/>
+      </div>
+      <div class="flex justify-center">
+        <img src="assest/فنون4.avif" alt="Al-Fareesa dance scene 2" class="w-[600px] h-[400px] object-cover rounded-none shadow-md"/>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="bg-[#f7ebe6] py-10 px-6" dir="ltr">
+  <div class="max-w-6xl mx-auto">
+
+    <h2 class="text-3xl font-bold text-[#222] mb-8 text-center">
+      Al-Tanboora
+    </h2>
+    <p class="text-lg">
+      Al-Tanboora is an African dance brought to Kuwait by Omanis, based on slow pentatonic rhythms. In old Kuwait, a group called “Al-Tanboora” performed in Al-Midan near Darwaza Abdulrazzaq. The dance features a performer wearing a belt of goat hooves tied together, shaking his waist to produce rhythmic sounds in harmony with the music, while leaning on a long stick.
+    </p>
+
+    <h2 class="text-1xl font-bold text-[#222] mb-8 text-center">Al-Tanboora Instruments (6 in total):</h2>
+
+    <h2 class="text-1xl font-bold text-[#222] mb-2 text-center">Tanboora:</h2>
+    <p class="text-center">A string instrument.</p>
+
+    <h2 class="text-1xl font-bold text-[#222] mb-2 text-center">Manjoor:</h2>
+    <p class="text-center">
+      Made from goat hooves fixed on cloth, tied around the waist of a performer, producing a rattling sound that complements the Tanboora.  
+      Four drums accompany the Tanboora player, two on each side.
+    </p>
+
+    <div class="flex flex-wrap md:flex-nowrap gap-8 justify-center items-start mt-10">
+      <div class="flex justify-center">
+        <img src="assest/فنون5.avif" alt="Tanboora dance scene 1" class="w-[400px] h-[400px] object-cover rounded-none shadow-md"/>
+      </div>
+      <div class="flex justify-center">
+        <img src="assest/فنون6.avif" alt="Tanboora dance scene 2" class="w-[400px] h-[400px] object-cover rounded-none shadow-md"/>
+      </div>
+      <div class="flex justify-center">
+        <img src="assest/فنون7.avif" alt="Tanboora dance scene 3" class="w-[400px] h-[400px] object-cover rounded-none shadow-md"/>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="bg-white py-1 px-6" dir="ltr">
+  <div class="max-w-6xl mx-auto">
+
+    <h2 class="text-3xl font-bold text-[#222] mb-6 text-center">Al-Ardha Dance</h2>
+    <p class="text-center">
+      Al-Ardha is a traditional group performance popular across the Arabian Peninsula. It is a collective chant accompanied by movement, performed by large groups of men. Known also as “Al-Hidwa,” it is linked to war chants, encouraging unity and strength. Al-Ardha is performed during national and festive occasions, with men carrying rifles and swords as symbols of pride and defense of the homeland.
+    </p>
+
+    <h2 class="text-2xl font-bold text-[#222] mb-6 text-center">Groups in Al-Ardha:</h2>
+    <p class="text-center">
+      Drum bearers play rhythmic beats in harmony with the chants. In the center stands the flag bearer. The dance involves raising swords, swaying right and left, and stepping forward. Singers stand in rows, accompanied by different drums: large ones called “Takmeer” and smaller ones called “Tathleeth.” Dancers wear belts (Mahzama) once used to carry bullets. Al-Ardha is considered a war dance, with men facing each other in two rows, holding swords or rifles.
+    </p>
+
+    <h2 class="text-2xl font-bold text-[#222] mb-6 text-center">Examples of Kuwaiti Al-Ardha Poems:</h2>
+    <p class="text-lg text-center">O homeland, we owe you loyalty, in hardship we seek no intercession.</p>
+    <p class="text-lg text-center">We keep our lineage strong, even after famine.</p>
+    <p class="text-lg text-center">If not for God’s will, we would not march, nor drink bitter water.</p>
+    <p class="text-lg text-center">Our sheikh, we are warriors, igniting battles when needed.</p>
+    <p class="text-lg text-center">Do not heed false words, rise when called.</p>
+    <p class="text-lg text-center">Teach discipline, do not falter, stand firm among the people.</p>
+    <p class="text-lg text-center">And so on...</p>
+
+    <div class="flex flex-wrap md:flex-nowrap gap-8 justify-center items-start mt-10">
+      <div class="flex justify-center">
+        <img src="assest/فنون9.avif" alt="Al-Ardha dance scene 1" class="w-[400px] h-[300px] object-cover rounded-none shadow-md"/>
+      </div>
+      <div class="flex justify-center">
+        <img src="assest/فنون10.avif" alt="Al-Ardha dance scene 2" class="w-[400px] h-[300px] object-cover rounded-none shadow-md"/>
+      </div>
+      <div class="flex justify-center">
+        <img src="assest/فنون11.avif" alt="Al-Ardha dance scene 3" class="w-[400px] h-[300px] object-cover rounded-none shadow-md"/>
+      </div>
+      <div class="flex justify-center">
+        <img src="assest/فنون12.avif" alt="Al-Ardha dance scene 4" class="w-[400px] h-[300px] object-cover rounded-none shadow-md"/>
+      </div>
+    </div>
+  </div>
+</section>
+<footer class="w-full bg-[#835034] py-10 px-5 md:px-10" dir="ltr">
+  <div class="w-full flex flex-col md:flex-row justify-between items-center md:items-start gap-8">
+
+    <div class="text-white flex flex-col items-center md:items-start text-center md:text-left">
+      <div class="flex flex-col md:flex-row items-center md:gap-3 mb-8">
+        <img src="sedra-wave-small-Yle47l0kxaiqD6Bv.avif" class="w-20 mb-2 md:mb-0">
+        <h1 class="text-2xl font-bold">Sedra Voice</h1>
+      </div>
+
+      <div class="flex items-center gap-3 mb-2 justify-center md:justify-start">
+        <svg class="w-7 h-7" fill="none" stroke="white" stroke-width="1.5" viewBox="0 0 24 24">
+          <rect x="3" y="3" width="18" height="18" rx="5"></rect>
+          <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+          <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+        </svg>
+      </div>
+
+      <span class="text-lg">Contact Us:</span>
+      <p class="text-lg mb-1">+965-99911612</p>
+      <a href="mailto:Bodouralmualii@sawtsidra.com" class="underline text-[#e9d8c9]">
+        Bodouralmualii@sawtsidra.com
+      </a>
+    </div>
+
+    <div class="flex flex-col items-center md:items-start">
+      <img 
+        src="footer-m7VDLgX2oMU7v3Ng.avif"
+        class="w-full max-w-[420px] h-auto rounded-md shadow-lg"
+      >
+      <p class="text-white text-sm mt-3 text-center md:text-left">
+        © 2025. All rights reserved.
+      </p>
+    </div>
+
+  </div>
+</footer>
+
+</body>
+</html>
+

@@ -1,0 +1,500 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sedra Voice — Home</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: { cairo: ['Cairo', 'sans-serif'] },
+        }
+      }
+    }
+  </script>
+  <style> body { font-family: 'Cairo', sans-serif; } .hero-title { text-shadow: 0 6px 18px rgba(0,0,0,0.45); } </style>
+</head>
+
+<body class="bg-white text-gray-800">
+ <header class="w-full bg-white shadow-sm">
+  <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+
+    <a href="index - eng.html" class="flex items-center gap-3">
+      <img src="sedra-wave-small-Yle47l0kxaiqD6Bv.avif" alt="logo" class="w-12 h-12 object-contain rounded-md">
+      <span class="font-bold text-lg">Sedra Voice</span>
+    </a>
+
+      <nav class="hidden lg:flex items-center gap-6 text-sm">
+        <a href="index - eng.html" class="hover:text-green-700">Home</a>
+        <a href="about - eng.html" class="hover:text-green-700">About</a>
+        <a href="beginning-and-end - eng.html" class="hover:text-green-700">Beginning and End</a>
+        <a href="kuwaiti-kitchen - eng.html" class="hover:text-green-700">Kuwaiti Kitchen</a>
+        <a href="customs-and-occasions - eng.html" class="hover:text-green-700">Customs and Occasions</a>
+        <a href="folk-arts - eng.html" class="hover:text-green-700">Folk Arts</a>
+        <a href="life-of-the-sea - eng.html" class="hover:text-green-700">Life of the Sea</a>
+        <a href="folk-games - Copy.html" class="hover:text-green-700">Folk Games</a>
+        <a href="bedouin-life - eng.html" class="hover:text-green-700">Bedouin Life</a>
+        <a href="proverbs - eng.html" class="hover:text-green-700">Proverbs</a>
+        <a href="professions-from-the-past - Copy.html" class="hover:text-green-700">Professions from the Past</a>
+      </nav>
+
+    <div class="flex items-center gap-3">
+      <a href="index.html" class="text-gray-600">
+      
+      <button class="hidden sm:inline-flex items-center gap-2 px-3 py-1 border rounded-full text-sm text-gray-600">
+        Kuwait
+      </button></a>
+
+      <a href="#" class="text-gray-600"></a>
+      <button onclick="openMenu()" class="lg:hidden text-3xl text-gray-700">
+        ☰
+      </button>
+    </div>
+
+  </div>
+</header>
+
+<div id="mobileMenu" class="fixed top-0 left-0 w-72 h-full bg-white shadow-xl z-50 -translate-x-full transition-all duration-300">
+  <div class="p-6 text-right">
+    <button onclick="closeMenu()" class="text-2xl mb-6">✖</button>
+    <nav class="flex flex-col gap-4 text-lg font-medium">
+      <a href="index - eng.html">Home</a>
+      <a href="about - eng.html">About</a>
+      <a href="beginning-and-end - eng.html">Beginning and End</a>
+      <a href="kuwaiti-kitchen - eng.html">Kuwaiti Kitchen</a>
+      <a href="customs-and-occasions - eng.html">Customs and Occasions</a>
+      <a href="folk-arts - eng.html">Folk Arts</a>
+      <a href="life-of-the-sea - eng.html">Life of the Sea</a>
+      <a href="bedouin-life - eng.html">Bedouin Life</a>
+      <a href="folk-games - Copy.html">Folk Games</a>
+      <a href="proverbs - eng.html">Proverbs</a>
+      <a href="professions-from-the-past - Copy.html">Professions from the Past</a>
+            <a href="index.html">الكويت</a>
+
+    </nav>
+  </div>
+</div>
+<div id="overlay" onclick="closeMenu()" class="fixed inset-0 bg-black/50 z-40 hidden"></div>
+
+<script>
+  function openMenu() {
+    document.getElementById("mobileMenu").classList.remove("-translate-x-full");
+    document.getElementById("overlay").classList.remove("hidden");
+  }
+  function closeMenu() {
+    document.getElementById("mobileMenu").classList.add("-translate-x-full");
+    document.getElementById("overlay").classList.add("hidden");
+  }
+</script>
+
+<section class="w-full bg-[#f7ebe6] py-16" dir="ltr">
+  <div class="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
+
+    <div class="flex justify-center md:justify-start">
+      <img 
+        src="whatsapp-image-2025-08-21-at-07.35.56-AMqD5w8PXNu54zrZ.avif" 
+        class="w-full max-w-md rounded-xl object-cover shadow-md"
+      />
+    </div>
+
+    <div class="text-[#222] leading-relaxed">
+      <h2 class="text-4xl font-bold mb-6 text-[#222]">Personal Information :</h2>
+
+      <p class="text-xl font-bold mb-2">Name:</p>
+      <p class="mb-4">Bodour Ibrahim Mohammed Al-Muaili</p>
+
+      <p class="text-xl font-bold mb-2">Academic Qualification:</p>
+      <ul class="space-y-1 mb-4">
+        <li>- University Administration, Early Childhood Education major - Kuwait University - College of Education 2001.</li>
+        <li>- Master’s degree from Kuwait University - College of Education - Foundations of Education "Thesis titled: When Food Becomes a Mirror" 2021.</li>
+        <li>- Course: Cultural Dimensions of Food in Anime Films - Hayao Miyazaki 2021.</li>
+      </ul>
+
+      <p class="text-xl font-bold mb-2">Academic and Professional Experience:</p>
+      <ul class="space-y-1">
+        <li>- Administrative Supervisor at the Guidance and Counseling Office - College of Education 2001/2002.</li>
+        <li>- Kindergarten Teacher, Level One at Al-Nubl Kindergarten - Hawalli Educational Area 2004/2005.</li>
+        <li>- Teacher in the following educational schools (Legal - Ahmadi - Jahra).</li>
+        <li>- Experience in modern teaching methods and assisting in teaching the course "Practical Workshop for Kindergarten" 2007.</li>
+        <li>- Literary Story Writer for Teachers - Department of Foundations of Education 2021 - March 2025.</li>
+        <li>- Consultant/Writer/Artistic and Creative Workshops - Fams Dasman Bilingual 2025.</li>
+      </ul>
+    </div>
+
+  </div>
+</section>
+
+<section class="py-10 bg-[#f5e9e4]">
+  <div class="max-w-7xl mx-auto px-4">
+    <div class="rounded-2xl overflow-hidden">
+      <img 
+        src="2db7c6e8-610f-4bd5-aaad-d629797a73f9-mP43GryBk5hGBjgw.avif" 
+        alt="Event Image" 
+        class="w-full h-[350px] md:h-[550px] object-cover object-center">
+    </div>
+  </div>
+</section>
+
+
+<section class="py-10 bg-[#f5e9e4]">
+  <div class="max-w-7xl mx-auto px-4">
+    <div class="text-[#222] leading-relaxed">
+      <ul class="space-y-1">
+        <ul>
+          <li>- Published a joint research with Dr. Ghazi Al-Rashidi in the Educational Journal titled "Integrating the Blind in Public Schools in Kuwait".</li>
+          <li>- Participated as a lecturer in the conference "Let’s Listen to the Voice of the Field" presenting the topic of the blind in public schools in Kuwait, in addition to participating in discussions on kindergarten teachers’ issues between March 15–17, 2004.</li>
+          <li>- Completed the training program on educational software for kindergarten in Kuwait.</li>
+          <li>- Authored and illustrated a collection of five children’s stories for kindergarten and primary stage with titles (The Ant and the Tree – Our New Home – My Homeland Kuwait – Mansour and the Computer – The Small Village).</li>
+          <li>- Author of the book "Rock Burst" (Art Applications for Painting on Rocks) 2011.</li>
+          <li>- Author of the book "Pottery and Thoughts" 2011.</li>
+          <li>- Author of the book "My Creations from My Consumables" (For every creative… innovator… lover of renewal and distinction) 2011.</li>
+          <li>- Author of the book "Teaching Thinking Methods" 2013.</li>
+          <li>- Author of the book "Write Your Story with Rawy – An Educational Book on Story Writing for Children" 2014.</li>
+          <li>- Author of the story "Pirate Badran" 2014.</li>
+          <li>- Author of the book "Bodour Al-Muaili – Creative Works and Characters Embodying Kuwaiti Heritage – Your Old is Your Companion" 2014.</li>
+          <li>- Author of the story "Pirate Badran".</li>
+          <li>- Author of the story "Flower’s Ambition".</li>
+          <li>- Author of the story "My Mother’s Basket of Kindness".</li>
+          <li>- Author of the book "Journey of the Self".</li>
+          <li>- Member of the Kuwaiti Writers Association.</li>
+          <li>- Organized exhibitions of students’ work for the Practical Workshop course – Kindergarten, for both the second semester and summer semester of the academic year 2007/2008.</li>
+          <li>- Conducted a children’s workshop at the 32nd Book Fair 2008 titled "Let’s Read, Listen, Enjoy".</li>
+          <li>- Participated in the children’s carnival "Our Fingerprints Build Our Future" February 19–21, 2009 at The Avenues Mall.</li>
+          <li>- Conducted a workshop at Abdul Latif Al-Saleh Kindergarten in Jahra titled "My Consumables, My Way to Create My Tools" January 2009.</li>
+          <li>- Conducted a workshop at Arabian Gulf Kindergarten in Hawalli titled "Recycling Consumables" January 2009.</li>
+          <li>- Conducted a workshop at Al-Salam Kindergarten in Farwaniya November 2009.</li>
+          <li>- Conducted a workshop for the Physical Education Department at Bayan Primary School – Girls in Hawalli titled "My Tools Made by My Hands" December 2009.</li>
+          <li>- Designed decorations for a children’s play for the English Department at Bayan Primary School – Girls in Hawalli.</li>
+          <li>- Organized an exhibition of students’ work for the Practical Workshop course – Kindergarten, first semester 2009/2010.</li>
+          <li>- Conducted a workshop at Ibn Battuta Kindergarten in Jahra titled "Puppet Theater" January 2010.</li>
+          <li>- Conducted a workshop at the Applied Camp for Girl Scouts titled "Together We Excel and Create" March 2010.</li>
+          <li>- Designed and organized the exhibition "Artistic Hopes" for the Art Education course – Department of Curriculum and Teaching Methods – Kuwait University – College of Education June 2010.</li>
+          <li>- Designed decorations for the play "Alice in Wonderland" at Bayan Primary School – Girls 2011.</li>
+          <li>- Completed the "Train the Trainers Programme" 2011.</li>
+          <li>- Completed the "Seven Quality Tools" course 2011.</li>
+          <li>- Completed the "Leadership Skills" course 2011.</li>
+          <li>- Completed the "Strategic Planning" course 2011.</li>
+          <li>- Member of the British Academy for Human Resource Development MHRDA 2011.</li>
+          <li>- Certified Trainer at the British Academy for Human Resource Development HRD Academy 2011.</li>
+          <li>- Conducted a workshop "My Creations from My Consumables" at Kuwait Kindergarten, Mubarak Al-Kabeer Educational Area 2012.</li>
+          <li>- Member of Dowa Voluntary Center.</li>
+          <li>- Conducted a workshop "My Creations from My Consumables" at Friendship Kindergarten, Ahmadi Educational Area 2013.</li>
+          <li>- Completed the "Doodling Analysis" course 2013.</li>
+          <li>- Conducted a workshop "Six Thinking Hats" for boys and girls aged 7–15 at Dowa Voluntary Center 2013.</li>
+          <li>- Conducted a puppet theater workshop for children at Dowa Voluntary Center 2013.</li>
+          <li>- Conducted a workshop on "Girgian and Girgian Bags" for children at Dowa Voluntary Center 2013.</li>
+          <li>- Participated in an advanced trainers’ course "Creative Writing and Storytelling" 2014.</li>
+          <li>- Conducted a workshop at "Innovation Store" for participants in Kuwait Innovation Award 2014.</li>
+          <li>- Conducted the course "Write Your Story with Rawy" for children 2014.</li>
+          <li>- Conducted two workshops "Charity Returns to You" and "Faces of Volunteering" at Imaniyati Camp 2014.</li>
+          <li>- Conducted a puppet theater workshop for participants at Dowa Voluntary Center 2014.</li>
+          <li>- Conducted the course "Ideas Store" September 27–29, 2014.</li>
+          <li>- Presented the story "Pirate Badran" at the Third Childhood Festival October 10–13, 2014.</li>
+          <li>- Participated in the program "Your Summit in Your Effort" for girls aged 12–15 December 18–20, 2014.</li>
+          <li>- Participated as a trainer in a trip to Oman with the Kuwait Association for Learning Differences and Dowa Voluntary Center January 2015.</li>
+          <li>- Participated in the Future Generations Festival – National Council for Culture, Arts, and Letters – March 2015.</li>
+          <li>- Developed and implemented the idea "He Who Has No Beginning Has No End" at the Children’s Cultural Festival – National Council for Culture, Arts, and Letters with Dowa Voluntary Center.</li>
+          <li>- Developed and implemented the idea "Old Wool" – Failaka (Boys – Girls) with Dowa Voluntary Center.</li>
+          <li>- Certified Trainer in SCAMPER Program for Creative Thinking and Imagination Development.</li>
+          <li>- Participated in Sharjah Reading Festival with two workshops: presenting the story "Pirate Badran" and "Write Your Story with Rawy" April 2016.</li>
+          <li>- Organized "Pleasant Days" program in Failaka (Women only) with Dowa Voluntary Center May 2016.</li>
+          <li>- Organized Girgian celebration and presented the story "My Mother’s Basket of Kindness" for the National Council for Culture, Arts, and Letters at Abdulaziz Hussein Cultural Center 2016.</li>
+          <ul>
+            <li>- Participated in the WFWP Global Women’s Network Conference titled "Youth and Family: Keys to Transforming the Middle East and Achieving Sustainable Development Goals", Larnaca – Cyprus October 2016.</li>
+            <li>- Participated in the workshop "How to Write Science Fiction" by Dr. Ashraf Faqih.</li>
+            <li>- Secretary of the Master’s Program, Department of Curriculum and Teaching Methods.</li>
+            <li>- Secretary of the Master’s Program, Department of Foundations of Education.</li>
+            <li>- Rapporteur of the Doctoral Committee, Department of Foundations of Education.</li>
+            <li>- Developed and implemented the project "Heritage" at Dasman Bilingual School March 2025.</li>
+            <li>- Presented the play "Samimija" – a story from Kuwaiti heritage – for Dasman Bilingual School students (Kindergarten – Primary – Special Needs).</li>
+            <li>- Organized the exhibition "Our Heritage is Our Identity" for all stages (Dasman Bilingual School).</li>
+            <li>- Created posts about Kuwaiti heritage – "My Mother’s Kitchen" – Kuwaiti pickles – Harees.</li>
+            <li>- Delivered a lecture titled "Food is Identity" at Takween Library May 6</li>
+            <li>- Participated in the WFWP Global Women’s Network Conference titled "Youth and Family: Keys to Transforming the Middle East and Achieving Sustainable Development Goals", Larnaca – Cyprus October 2016.</li>
+<li>- Participated in the workshop "How to Write Science Fiction" by Dr. Ashraf Faqih.</li>
+<li>- Secretary of the Master’s Program, Department of Curriculum and Teaching Methods.</li>
+<li>- Secretary of the Master’s Program, Department of Foundations of Education.</li>
+<li>- Rapporteur of the Doctoral Committee, Department of Foundations of Education.</li>
+<li>- Developed and implemented the project "Heritage" at Dasman Bilingual School March 2025.</li>
+<li>- Presented the play "Samimija" – a story from Kuwaiti heritage – for Dasman Bilingual School students (Kindergarten – Primary – Special Needs).</li>
+<li>- Organized the exhibition "Our Heritage is Our Identity" for all stages (Dasman Bilingual School).</li>
+<li>- Created posts about Kuwaiti heritage – "My Mother’s Kitchen" – Kuwaiti pickles – Harees.</li>
+<li>- Delivered a lecture titled "Food is Identity" at Takween Library May 6, 2025.</li>
+<li>- Obtained the Professional Diploma in Veterinary Health Management for Pets July 5–27, 2025.</li>
+<li>- Certificate from EHSA (European Health and Safety Agency).</li>
+<li>- Membership from SHSA (European Health and Safety Agency).</li>
+<li>- Certified Certificate from Nevada University, USA.</li>
+<li>- Certificate from Nevada Training and Consulting Center (Arabic – English).</li>
+<li>- Obtained the Training Diploma in Crisis and Disaster Management February–August 2025.</li>
+<li>- Certified Certificate from KHDA – Knowledge and Human Development Authority – Dubai Government.</li>
+<li>- Certificate from Al-Bayan Institute accredited by ACTEVET Abu Dhabi and attested by the Kuwaiti Embassy.</li>
+<li>- Certified Certificate from the National Training Center accredited by the Ministry of Education – Dubai.</li>
+<li>- Certificate and Membership Card from the International Academy of Leadership and Management – Switzerland.</li>
+<li>- Attended the workshop "Strategies for Dealing with Psychological Trauma" July 3, 2025.</li>
+<li>- Obtained the Training Diploma in Cultural Diplomacy Skills May 14–August 14, 2025.</li>
+<li>- Obtained the Training Diploma in Arts and Heritage April 10–July 10, 2025.</li>
+<li>- Attended the Basic Studies Program – Emotional Logic – Dr. Ahmed Al-Damlawi 2025.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="py-16 bg-white">
+  <div class="max-w-7xl mx-auto px-6">
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+
+
+      <div class="rounded-2xl overflow-hidden shadow-md">
+        <img 
+          src="assest\1.png"
+          alt="Certificate 1"
+          class="w-full h-full object-cover">
+      </div>
+
+
+
+      <div class="rounded-2xl overflow-hidden shadow-md">
+        <img 
+          src="assest\2.png"
+          alt="Certificate 1"
+          class="w-full h-full object-cover">
+      </div>
+
+
+      
+      <div class="rounded-2xl overflow-hidden shadow-md">
+        <img 
+          src="assest\2 - Copy.png"
+          alt="Certificate 1"
+          class="w-full h-full object-cover">
+      </div>
+
+
+      <div class="rounded-2xl overflow-hidden shadow-md">
+        <img 
+          src="assest\1 - Copy.png"
+          alt="Certificate 1"
+          class="w-full h-full object-cover">
+      </div>
+
+<div class="rounded-2xl overflow-hidden shadow-md">
+        <img 
+          src="assest\3.png"
+          alt="Certificate 1"
+          class="w-full h-full object-cover">
+      </div>
+
+
+
+
+      <div class="rounded-2xl overflow-hidden shadow-md">
+        <img 
+          src="assest\شهادة 1.avif"
+          alt="Certificate 1"
+          class="w-full h-full object-cover">
+      </div>
+
+      <div class="rounded-2xl overflow-hidden shadow-md">
+        <img 
+          src="assest\شهادة 2.avif"
+          alt="Certificate 2"
+          class="w-full h-full object-cover">
+      </div>
+
+      <div class="rounded-2xl overflow-hidden shadow-md">
+        <img 
+          src="assest\شهادة3.avif"
+          alt="Certificate 3"
+          class="w-full h-full object-cover">
+      </div>
+
+      <div class="rounded-2xl overflow-hidden shadow-md">
+        <img 
+          src="assest\شهادة4.avif"
+          alt="Certificate 4"
+          class="w-full h-full object-cover">
+      </div>
+
+      <div class="rounded-2xl overflow-hidden shadow-md">
+        <img 
+          src="assest\شهادة5.avif"
+          alt="Certificate 5"
+          class="w-full h-full object-cover">
+      </div>
+
+      <div class="rounded-2xl overflow-hidden shadow-md">
+        <img 
+          src="assest\شهادة6.avif"
+          alt="Certificate 6"
+          class="w-full h-full object-cover">
+      </div>
+
+      <div class="rounded-2xl overflow-hidden shadow-md">
+        <img 
+          src="assest\شهادة7.avif"
+          alt="Certificate 7"
+          class="w-full h-full object-cover">
+      </div>
+
+      <div class="rounded-2xl overflow-hidden shadow-md">
+        <img 
+          src="assest\شهادة8.avif"
+          alt="Certificate 8"
+          class="w-full h-full object-cover">
+      </div>
+
+      <div class="rounded-2xl overflow-hidden shadow-md">
+        <img 
+          src="assest\شهادة9.avif"
+          alt="Certificate 9"
+          class="w-full h-full object-cover">
+      </div>
+
+      <div class="rounded-2xl overflow-hidden shadow-md">
+        <img 
+          src="assest\شهادة10.avif"
+          alt="Certificate 10"
+          class="w-full h-full object-cover">
+      </div>
+
+      <div class="rounded-2xl overflow-hidden shadow-md">
+        <img 
+          src="assest\شهادة11.avif"
+          alt="Certificate 11"
+          class="w-full h-full object-cover">
+      </div>
+
+      <div class="rounded-2xl overflow-hidden shadow-md">
+        <img 
+          src="assest\شهادة12.avif"
+          alt="Certificate 12"
+          class="w-full h-full object-cover">
+      </div>
+
+      <div class="rounded-2xl overflow-hidden shadow-md">
+        <img 
+          src="assest\شهادة13.avif"
+          alt="Certificate 13"
+          class="w-full h-full object-cover">
+      </div>
+
+      <div class="rounded-2xl overflow-hidden shadow-md">
+        <img 
+          src="assest\شهادة14.avif"
+          alt="Certificate 14"
+          class="w-full h-full object-cover">
+      </div>
+
+      <div class="rounded-2xl overflow-hidden shadow-md">
+        <img 
+          src="assest\شهادة15.avif"
+          alt="Certificate 15"
+          class="w-full h-full object-cover">
+      </div>
+
+      <div class="rounded-2xl overflow-hidden shadow-md">
+        <img 
+          src="assest\شهادة16.avif"
+          alt="Certificate 16"
+          class="w-full h-full object-cover">
+      </div>
+
+      <div class="rounded-2xl overflow-hidden shadow-md">
+        <img 
+          src="assest\شهادة17.avif"
+          alt="Certificate 17"
+          class="w-full h-full object-cover">
+      </div>
+
+      <div class="rounded-2xl overflow-hidden shadow-md">
+        <img 
+          src="assest\شهادة18.avif"
+          alt="Certificate 18"
+          class="w-full h-full object-cover">
+      </div>
+
+      <div class="rounded-2xl overflow-hidden shadow-md">
+        <img 
+          src="assest\شهادة19.avif"
+          alt="Certificate 19"
+          class="w-full h-full object-cover">
+      </div>
+
+      <div class="rounded-2xl overflow-hidden shadow-md">
+        <img 
+          src="assest\شهادة 20.avif"
+          alt="Certificate 20"
+          class="w-full h-full object-cover">
+      </div>
+
+      <div class="rounded-2xl overflow-hidden shadow-md">
+        <img 
+          src="assest\شهادة21.avif"
+          alt="Certificate 21"
+          class="w-full h-full object-cover">
+      </div>
+
+      <div class="rounded-2xl overflow-hidden shadow-md">
+        <img 
+          src="assest\شهادة22.avif"
+          alt="Certificate 22"
+          class="w-full h-full object-cover">
+      </div>
+
+      <div class="rounded-2xl overflow-hidden shadow-md">
+        <img 
+          src="assest\شهادة23.avif"
+          alt="Certificate 23"
+          class="w-full h-full object-cover">
+      </div>
+
+    </div>
+
+  </div>
+</section>
+  
+<footer class="w-full bg-[#835034] py-10 px-5 md:px-10" dir="ltr">
+  <div class="w-full flex flex-col md:flex-row justify-between items-center md:items-start gap-8">
+
+    <div class="text-white flex flex-col items-center md:items-start text-center md:text-left">
+      
+      <div class="flex flex-col md:flex-row items-center md:gap-3 mb-8">
+        <img src="sedra-wave-small-Yle47l0kxaiqD6Bv.avif" class="w-20 mb-2 md:mb-0">
+        <h1 class="text-2xl font-bold">Sedra Voice</h1>
+      </div>
+
+      <div class="flex items-center gap-3 mb-2 justify-center md:justify-start">
+        <svg class="w-7 h-7" fill="none" stroke="white" stroke-width="1.5" viewBox="0 0 24 24">
+          <rect x="3" y="3" width="18" height="18" rx="5"></rect>
+          <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+          <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+        </svg>
+      </div>
+
+      <span class="text-lg">Contact Us:</span>
+      <p class="text-lg mb-1">+965-99911612</p>
+      <a href="mailto:Bodouralmualii@sawtsidra.com" class="underline text-[#e9d8c9]">
+        Bodouralmualii@sawtsidra.com
+      </a>
+    </div>
+
+    <div class="flex flex-col items-center md:items-start">
+      <img 
+        src="footer-m7VDLgX2oMU7v3Ng.avif"
+        class="w-full max-w-[420px] h-auto rounded-md shadow-lg"
+      >
+      <p class="text-white text-sm mt-3 text-center md:text-left">
+        © 2025. All rights reserved.
+      </p>
+    </div>
+
+  </div>
+</footer>
+
+</body>
+</html>
+

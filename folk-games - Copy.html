@@ -1,0 +1,267 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sedra Voice — Home</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: { cairo: ['Cairo', 'sans-serif'] },
+        }
+      }
+    }
+  </script>
+  <style> body { font-family: 'Cairo', sans-serif; } .hero-title { text-shadow: 0 6px 18px rgba(0,0,0,0.45); } </style>
+</head>
+
+<body class="bg-white text-gray-800">
+ <header class="w-full bg-white shadow-sm">
+  <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+
+    <a href="index - eng.html" class="flex items-center gap-3">
+      <img src="sedra-wave-small-Yle47l0kxaiqD6Bv.avif" alt="logo" class="w-12 h-12 object-contain rounded-md">
+      <span class="font-bold text-lg">Sedra Voice</span>
+    </a>
+
+      <nav class="hidden lg:flex items-center gap-6 text-sm">
+        <a href="index - eng.html" class="hover:text-green-700">Home</a>
+        <a href="about - eng.html" class="hover:text-green-700">About</a>
+        <a href="beginning-and-end - eng.html" class="hover:text-green-700">Beginning and End</a>
+        <a href="kuwaiti-kitchen - eng.html" class="hover:text-green-700">Kuwaiti Kitchen</a>
+        <a href="customs-and-occasions - eng.html" class="hover:text-green-700">Customs and Occasions</a>
+        <a href="folk-arts - eng.html" class="hover:text-green-700">Folk Arts</a>
+        <a href="life-of-the-sea - eng.html" class="hover:text-green-700">Life of the Sea</a>
+        <a href="folk-games - Copy.html" class="hover:text-green-700">Folk Games</a>
+        <a href="bedouin-life - eng.html" class="hover:text-green-700">Bedouin Life</a>
+        <a href="proverbs - eng.html" class="hover:text-green-700">Proverbs</a>
+        <a href="professions-from-the-past - Copy.html" class="hover:text-green-700">Professions from the Past</a>
+      </nav>
+
+    <div class="flex items-center gap-3">
+      <a href="index.html" class="text-gray-600">
+      
+      <button class="hidden sm:inline-flex items-center gap-2 px-3 py-1 border rounded-full text-sm text-gray-600">
+        Kuwait
+      </button></a>
+
+      <a href="#" class="text-gray-600"></a>
+      <button onclick="openMenu()" class="lg:hidden text-3xl text-gray-700">
+        ☰
+      </button>
+    </div>
+
+  </div>
+</header>
+
+
+<div id="mobileMenu" class="fixed top-0 left-0 w-72 h-full bg-white shadow-xl z-50 -translate-x-full transition-all duration-300">
+  <div class="p-6 text-right">
+    <button onclick="closeMenu()" class="text-2xl mb-6">✖</button>
+    <nav class="flex flex-col gap-4 text-lg font-medium">
+      <a href="index - eng.html">Home</a>
+      <a href="about - eng.html">About</a>
+      <a href="beginning-and-end - eng.html">Beginning and End</a>
+      <a href="kuwaiti-kitchen - eng.html">Kuwaiti Kitchen</a>
+      <a href="customs-and-occasions - eng.html">Customs and Occasions</a>
+      <a href="folk-arts - eng.html">Folk Arts</a>
+      <a href="life-of-the-sea - eng.html">Life of the Sea</a>
+      <a href="bedouin-life - eng.html">Bedouin Life</a>
+      <a href="folk-games - Copy.html">Folk Games</a>
+      <a href="proverbs - eng.html">Proverbs</a>
+      <a href="professions-from-the-past - Copy.html">Professions from the Past</a>
+            <a href="index.html">الكويت</a>
+
+    </nav>
+  </div>
+</div>
+<div id="overlay" onclick="closeMenu()" class="fixed inset-0 bg-black/50 z-40 hidden"></div>
+
+<script>
+  function openMenu() {
+    document.getElementById("mobileMenu").classList.remove("-translate-x-full");
+    document.getElementById("overlay").classList.remove("hidden");
+  }
+  function closeMenu() {
+    document.getElementById("mobileMenu").classList.add("-translate-x-full");
+    document.getElementById("overlay").classList.add("hidden");
+  }
+</script>
+
+
+<section class="bg-[#f7ebe6] py-10 px-6" dir="ltr">
+  <div class="max-w-6xl mx-auto">
+
+    <h2 class="text-3xl font-bold text-[#222] mb-8 text-center">
+      The Spinning Top Game
+    </h2>
+    <p class="text-lg">
+      The spinning top is a small wooden piece shaped like a cone with two ends: one wide and one pointed. Its size is smaller than a fist. A nail is fixed at the pointed end to act as its axis during spinning.
+    </p>
+
+    <h2 class="text-1xl font-bold text-[#222] mb-8 text-center">
+      It has three types:
+    </h2>
+    <p class="text-center">1. The regular spinning top</p>
+    <p class="text-center">2. The Na’our top</p>
+    <p class="text-center">3. The Maghol top</p>
+
+    <p class="text-lg">
+      The spinning top is always mentioned along with the “Meshbel.” The Meshbel is a string about one meter long, wound around the top starting from the nail up to the top. Its other end is tied to a small piece of wood or metal, held between the ring and little fingers. The player throws the top, which lands on its nail and spins, while the Meshbel remains hanging between the fingers.  
+      It is a fun and entertaining game played individually or in organized groups. One of its variations is called “Al-Fallous.” In this version, one player places his top on the ground as a target, and others try to pierce it with the nails of their tops. The piercing is called “Anboob.” If a player misses, he must catch his spinning top using the Meshbel; otherwise, his top is exposed to damage. Some players skillfully make the top spin in their hands.  
+      The best of all tops is the “Zakid,” which produces a humming sound while spinning.
+    </p>
+
+    <div class="flex flex-wrap md:flex-nowrap gap-8 justify-center items-start mt-10">
+      <div class="flex justify-center">
+        <img 
+          src="assest/لعب1.avif" 
+          alt="Spinning top game scene" 
+          class="w-[600px] h-[400px] object-cover rounded-none shadow-md"
+        />
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<section class="bg-white py-10 px-6" dir="ltr">
+  <div class="max-w-6xl mx-auto">
+
+    <h2 class="text-3xl font-bold text-[#222] mb-8 text-center">
+      Al-Muqsi Game
+    </h2>
+    <p class="text-lg">
+      Al-Muqsi is a fun group game played by boys during the day. It includes:
+      <br>1. Al-Muqsi: a wooden piece pointed at both ends, about 15 cm long and 3 cm thick.
+      <br>2. Al-Matta’a: a thick stick about 60 cm long.
+      <br>3. Al-Kour: a horizontal hole in the ground the length of the Muqsi.
+      <br>4. Al-Sheesh: a line drawn near the Kour.
+    </p>
+
+    <h2 class="text-1xl font-bold text-[#222] mb-8 text-center">Game Explanation:</h2>
+    <p class="text-center">
+      Players are divided into two teams, and a draw decides who starts. The leader throws the Muqsi away from the Kour, then asks a player to choose a word (“Allah” or “Sayfa”). He flips the Matta’a along the ground, chanting alternately until it touches the Muqsi. If the chosen word matches, that team wins the turn.  
+      The winning team then plays by placing the Muqsi in the Kour, hitting it lightly to lift it, then striking it hard to send it flying. The opposing team tries to catch it in their hands or clothes. If caught, they score a point; if not, they throw it back toward the Matta’a. Scoring continues, and every three points are called a “Ruh” (soul). The opposing team must eliminate all souls to win.  
+      A variation called “Al-Ma Tou’a” is played without a Kour, hitting the Muqsi directly by hand. Another related game involved spinning tops (Balbool), which boys struck repeatedly to make them hum. These games have now disappeared.
+    </p>
+
+    <div class="flex flex-wrap md:flex-nowrap gap-8 justify-center items-start mt-10">
+      <div class="flex justify-center">
+        <img src="assest/لعب2.avif" alt="Al-Muqsi game scene" class="w-[600px] h-[400px] object-cover rounded-none shadow-md"/>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="bg-[#f7ebe6] py-10 px-6" dir="ltr">
+  <div class="max-w-6xl mx-auto">
+
+    <h2 class="text-3xl font-bold text-[#222] mb-8 text-center">
+      Al-Kafoud
+    </h2>
+    <p class="text-lg">
+      Known among Kuwaitis, Al-Kafoud is a palm frond stick stripped of leaves and thorns. Straight at one end and curved at the other, with a wide tip, it was used as a playful toy for children. Some decorated it with colorful fabric scraps tied along a string stretched between its ends. Others added small sticks called “Sikan” at the top and bottom, connected with decorative threads, creating a colorful shape carried proudly by children as they walked.
+    </p>
+
+    <div class="flex flex-wrap md:flex-nowrap gap-8 justify-center items-start mt-10">
+      <div class="flex justify-center">
+        <img src="assest/لعب3.avif" alt="Al-Kafoud toy scene 1" class="w-[600px] h-[400px] object-cover rounded-none shadow-md"/>
+      </div>
+      <div class="flex justify-center">
+        <img src="assest/لعب4.avif" alt="Al-Kafoud toy scene 2" class="w-[600px] h-[400px] object-cover rounded-none shadow-md"/>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="bg-[#f7ebe6] py-10 px-6" dir="ltr">
+  <div class="max-w-6xl mx-auto">
+
+    <h2 class="text-3xl font-bold text-[#222] mb-8 text-center">
+      Al-Darbaha (Boys’ Game)
+    </h2>
+    <p class="text-lg">
+      Al-Darbaha is a circular frame originally from bicycle wheels. The name comes from the Kuwaiti word “to roll” (tadrabah). Boys used sticks to push and guide the rolling frame, sometimes using strong wires twisted around it for control. They raced their Darbahas over distances, competing to knock over each other’s frames. It gave them the same excitement as owning a car or bicycle today.
+    </p>
+
+    <div class="flex flex-wrap md:flex-nowrap gap-8 justify-center items-start mt-10">
+      <div class="flex justify-center">
+        <img src="assest/لعب5.avif" alt="Al-Darbaha game scene" class="w-[600px] h-[400px] object-cover rounded-none shadow-md"/>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="bg-white py-10 px-6" dir="ltr">
+  <div class="max-w-6xl mx-auto">
+
+    <h2 class="text-3xl font-bold text-[#222] mb-8 text-center">
+      Al-Heela Game (for Girls)
+    </h2>
+    <p class="text-lg">
+      This is a game played by two or more girls in multiple stages. A rectangle is drawn on the ground and divided into six squares (houses). The player stands at the first square holding a flat piece of stone or pottery called “Al-Rabaza,” while her opponent waits outside the squares for her turn.  
+      The player throws the Rabaza into the first house, then hops into it, kicking the Rabaza to the second house, continuing to hop through the third, fourth, and so on until the last. She must return to her starting point without stepping on the dividing lines, using her second foot, or letting the Rabaza land on or outside the lines. If she fails, her opponent takes the turn.  
+      In the next round, she throws the Rabaza into the second house and repeats the process, then the third, fourth, and so on until the sixth. In all rounds, she hops through all squares on one foot.  
+      Later, she stands at the first house with her back turned and throws the Rabaza randomly. If it lands in a house, that house becomes hers, and she can step on it with both feet when passing. She continues throwing until she owns all houses where the Rabaza lands. The game then restarts and continues in turns with her friends.
+    </p>
+
+    <div class="flex flex-wrap md:flex-nowrap gap-8 justify-center items-start mt-10">
+      <div class="flex justify-center">
+        <img 
+          src="assest/لعب6.avif" 
+          alt="Al-Heela girls’ game scene" 
+          class="w-[600px] h-[400px] object-cover rounded-none shadow-md"
+        />
+      </div>
+    </div>
+
+  </div>
+</section>
+
+</main>
+<footer class="w-full bg-[#835034] py-10 px-5 md:px-10" dir="ltr">
+  <div class="w-full flex flex-col md:flex-row justify-between items-center md:items-start gap-8">
+
+    <div class="text-white flex flex-col items-center md:items-start text-center md:text-left">
+      <div class="flex flex-col md:flex-row items-center md:gap-3 mb-8">
+        <img src="sedra-wave-small-Yle47l0kxaiqD6Bv.avif" class="w-20 mb-2 md:mb-0">
+        <h1 class="text-2xl font-bold">Sedra Voice</h1>
+      </div>
+
+      <div class="flex items-center gap-3 mb-2 justify-center md:justify-start">
+        <svg class="w-7 h-7" fill="none" stroke="white" stroke-width="1.5" viewBox="0 0 24 24">
+          <rect x="3" y="3" width="18" height="18" rx="5"></rect>
+          <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+          <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+        </svg>
+      </div>
+
+      <span class="text-lg">Contact Us:</span>
+      <p class="text-lg mb-1">+965-99911612</p>
+      <a href="mailto:Bodouralmualii@sawtsidra.com" class="underline text-[#e9d8c9]">
+        Bodouralmualii@sawtsidra.com
+      </a>
+    </div>
+
+    <div class="flex flex-col items-center md:items-start">
+      <img 
+        src="footer-m7VDLgX2oMU7v3Ng.avif"
+        class="w-full max-w-[420px] h-auto rounded-md shadow-lg"
+      >
+      <p class="text-white text-sm mt-3 text-center md:text-left">
+        © 2025. All rights reserved.
+      </p>
+    </div>
+
+  </div>
+</footer>
+
+</body>
+</html>
+

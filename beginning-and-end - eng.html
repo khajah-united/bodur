@@ -1,0 +1,315 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sedra Voice — Home</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: { cairo: ['Cairo', 'sans-serif'] },
+        }
+      }
+    }
+  </script>
+  <style> body { font-family: 'Cairo', sans-serif; } .hero-title { text-shadow: 0 6px 18px rgba(0,0,0,0.45); } </style>
+</head>
+
+<body class="bg-white text-gray-800">
+ <header class="w-full bg-white shadow-sm">
+  <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+
+    <a href="index - eng.html" class="flex items-center gap-3">
+      <img src="sedra-wave-small-Yle47l0kxaiqD6Bv.avif" alt="logo" class="w-12 h-12 object-contain rounded-md">
+      <span class="font-bold text-lg">Sedra Voice</span>
+    </a>
+
+      <nav class="hidden lg:flex items-center gap-6 text-sm">
+        <a href="index - eng.html" class="hover:text-green-700">Home</a>
+        <a href="about - eng.html" class="hover:text-green-700">About</a>
+        <a href="beginning-and-end - eng.html" class="hover:text-green-700">Beginning and End</a>
+        <a href="kuwaiti-kitchen - eng.html" class="hover:text-green-700">Kuwaiti Kitchen</a>
+        <a href="customs-and-occasions - eng.html" class="hover:text-green-700">Customs and Occasions</a>
+        <a href="folk-arts - eng.html" class="hover:text-green-700">Folk Arts</a>
+        <a href="life-of-the-sea - eng.html" class="hover:text-green-700">Life of the Sea</a>
+        <a href="folk-games - Copy.html" class="hover:text-green-700">Folk Games</a>
+        <a href="bedouin-life - eng.html" class="hover:text-green-700">Bedouin Life</a>
+        <a href="proverbs - eng.html" class="hover:text-green-700">Proverbs</a>
+        <a href="professions-from-the-past - Copy.html" class="hover:text-green-700">Professions from the Past</a>
+      </nav>
+
+    <div class="flex items-center gap-3">
+      <a href="index.html" class="text-gray-600">
+      
+      <button class="hidden sm:inline-flex items-center gap-2 px-3 py-1 border rounded-full text-sm text-gray-600">
+        Kuwait
+      </button></a>
+
+      <a href="#" class="text-gray-600"></a>
+      <button onclick="openMenu()" class="lg:hidden text-3xl text-gray-700">
+        ☰
+      </button>
+    </div>
+
+  </div>
+</header>
+
+
+<div id="mobileMenu" class="fixed top-0 left-0 w-72 h-full bg-white shadow-xl z-50 -translate-x-full transition-all duration-300">
+  <div class="p-6 text-right">
+    <button onclick="closeMenu()" class="text-2xl mb-6">✖</button>
+    <nav class="flex flex-col gap-4 text-lg font-medium">
+      <a href="index - eng.html">Home</a>
+      <a href="about - eng.html">About</a>
+      <a href="beginning-and-end - eng.html">Beginning and End</a>
+      <a href="kuwaiti-kitchen - eng.html">Kuwaiti Kitchen</a>
+      <a href="customs-and-occasions - eng.html">Customs and Occasions</a>
+      <a href="folk-arts - eng.html">Folk Arts</a>
+      <a href="life-of-the-sea - eng.html">Life of the Sea</a>
+      <a href="bedouin-life - eng.html">Bedouin Life</a>
+      <a href="folk-games - Copy.html">Folk Games</a>
+      <a href="proverbs - eng.html">Proverbs</a>
+      <a href="professions-from-the-past - Copy.html">Professions from the Past</a>
+            <a href="index.html">الكويت</a>
+
+    </nav>
+  </div>
+</div>
+<div id="overlay" onclick="closeMenu()" class="fixed inset-0 bg-black/50 z-40 hidden"></div>
+
+<script>
+  function openMenu() {
+    document.getElementById("mobileMenu").classList.remove("-translate-x-full");
+    document.getElementById("overlay").classList.remove("hidden");
+  }
+  function closeMenu() {
+    document.getElementById("mobileMenu").classList.add("-translate-x-full");
+    document.getElementById("overlay").classList.add("hidden");
+  }
+</script>
+
+<section class="bg-[#f7ebe6] py-16 px-6" dir="ltr">
+  <div class="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 items-start">
+
+    <div class="text-[#222] leading-relaxed">
+      <h2 class="text-3xl font-bold mb-4">What is the Beginning? And How Was the End?</h2>
+      <p class="text-lg">
+        The beginning, at times, was without documentation, repeating absence, repeating silence. Even when documentation existed, it did not do justice to the story, the details, those who were there, those who lived the experience, those who created the event, those who were the event, those who were everything. Documentation did not honor them, memory did not honor them, forgetting did not honor them, absence did not honor them, the end did not honor them, no one did.
+      </p>
+    </div>
+
+    <div class="text-[#222] leading-relaxed">
+      <p class="text-lg mt-10 md:mt-0">
+        Even the honest narrators of that adventure and its lingering details belonged to a unique kind that differed and passed. The story remained incomplete, the beginning and the end remained, and so did the details.
+        <br><br>
+        This story is more than letters, more than documents, more than names, more than titles.
+      </p>
+    </div>
+
+  </div>
+</section>
+
+<section class="bg-white py-16 px-6" dir="ltr">
+  <div class="max-w-6xl mx-auto">
+    <h2 class="text-3xl font-bold text-[#222] mb-10 text-center">Steps of Making Sandals (Al-Jazzaz)</h2>
+    <div class="flex flex-col md:flex-row gap-8 items-start justify-center">
+      <div class="w-full md:w-[35%] flex justify-center">
+        <img 
+          src="assest/بداية2.avif" 
+          alt="Leather cutting and sandal parts" 
+          class="w-full h-[360px] object-cover rounded-xl shadow-lg"
+        />
+      </div>
+      <div class="w-full md:w-[65%] flex justify-center">
+        <img 
+          src="assest/بداية.avif" 
+          alt="Sandal patterns on cardboard" 
+          class="w-full h-[360px] object-cover rounded-xl shadow-lg"
+        />
+      </div>
+    </div>
+  </div>
+</section>
+<section class="bg-[#f7ebe6] py-10 px-6" dir="ltr">
+  <div class="max-w-6xl mx-auto">
+    <h2 class="text-3xl font-bold text-[#222] mb-8 text-center">
+      Steps of Making (Sadu Cushion) for the Tent
+    </h2>
+    <div class="flex flex-wrap md:flex-nowrap gap-6 justify-center items-start">
+      <div class="flex justify-center">
+        <img 
+          src="assest/بداية3.avif" 
+          alt="Fabric cutting" 
+          class="w-[300px] h-[300px] object-cover rounded-none shadow-md"
+        />
+      </div>
+      <div class="flex justify-center">
+        <img 
+          src="assest/بداية4.avif" 
+          alt="Forming the cushion" 
+          class="w-[300px] h-[300px] object-cover rounded-none shadow-md"
+        />
+      </div>
+      <div class="flex justify-center">
+        <img 
+          src="assest/بداية5.avif" 
+          alt="Stuffing the cushion" 
+          class="w-[300px] h-[300px] object-cover rounded-none shadow-md"
+        />
+      </div>
+      <div class="flex justify-center">
+        <img 
+          src="assest/بداية6.avif" 
+          alt="Sewing the cushion" 
+          class="w-[300px] h-[300px] object-cover rounded-none shadow-md"
+        />
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="bg-white py-10 px-6" dir="ltr">
+  <div class="max-w-6xl mx-auto">
+
+    <h2 class="text-3xl font-bold text-[#222] mb-8 text-center">
+      Steps of Making (Al-Fareesa)
+    </h2>
+
+    <div class="flex flex-wrap md:flex-nowrap gap-6 justify-center items-start">
+
+      <div class="flex justify-center">
+        <img 
+          src="assest/بداية7.avif" 
+          alt="Fabric cutting" 
+          class="w-[300px] h-[300px] object-cover rounded-none shadow-md"
+        />
+      </div>
+
+      <div class="flex justify-center">
+        <img 
+          src="assest/بداية8.avif" 
+          alt="Forming the cushion" 
+          class="w-[300px] h-[300px] object-cover rounded-none shadow-md"
+        />
+      </div>
+
+      <div class="flex justify-center">
+        <img 
+          src="assest/بداية9.avif" 
+          alt="Stuffing the cushion" 
+          class="w-[300px] h-[300px] object-cover rounded-none shadow-md"
+        />
+      </div>
+
+      <div class="flex justify-center">
+        <img 
+          src="assest/بداية10.avif" 
+          alt="Sewing the cushion" 
+          class="w-[300px] h-[300px] object-cover rounded-none shadow-md"
+        />
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section class="bg-white py-10 px-6" dir="ltr">
+  <div class="max-w-6xl mx-auto">
+
+    <h2 class="text-3xl font-bold text-[#222] mb-8 text-center">
+      Steps of Making (Al-Fareesa)
+    </h2>
+
+    <div class="flex flex-wrap md:flex-nowrap gap-6 justify-center items-start">
+
+      <div class="flex justify-center">
+        <img 
+          src="assest/بداية11.avif" 
+          alt="Fabric cutting" 
+          class="w-[500px] h-[300px] object-cover rounded-none shadow-md"
+        />
+      </div>
+
+      <div class="flex justify-center">
+        <img 
+          src="assest/بداية12.avif" 
+          alt="Stuffing the cushion" 
+          class="w-[300px] h-[300px] object-cover rounded-none shadow-md"
+        />
+      </div>
+
+      <div class="flex justify-center">
+        <img 
+          src="assest/بداية13.avif" 
+          alt="Sewing the cushion" 
+          class="w-[300px] h-[300px] object-cover rounded-none shadow-md"
+        />
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section class="bg-white py-16 px-6" dir="ltr">
+  <div class="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 items-start">
+
+    <div class="text-[#222] leading-relaxed">
+      <h2 class="text-3xl font-bold mb-4">What is Heritage? Definition and Importance:</h2>
+      <p class="text-lg">
+        Heritage, in its simplest sense, is what past generations left behind for the present ones. It is the legacy of ancestors, serving as lessons from the past and guidance for the future. In civilization, heritage is like the roots of a tree; the deeper and more branched the roots, the stronger and more resilient the tree becomes against the challenges of time. Scientifically, heritage is a cultural field of study focusing on traditional or folk culture, highlighting it from historical, geographical, social, and psychological perspectives. Folk heritage includes people’s customs and traditions.
+      </p>
+    </div>
+
+    <div class="text-[#222] leading-relaxed">
+      <p class="text-lg mt-10 md:mt-5">
+        It also reflects opinions, ideas, and emotions passed down through generations.  
+        The largest part of folk heritage consists of folk tales such as poems, sung verses, stories of mythical creatures, heroic tales, and legends. It also includes arts, crafts, dances, games, entertainment, children’s songs and stories, proverbs, riddles, puzzles, superstitions, celebrations, and religious festivals.
+      </p>
+    </div>
+
+  </div>
+</section>
+
+<footer class="w-full bg-[#835034] py-10 px-5 md:px-10" dir="ltr">
+  <div class="w-full flex flex-col md:flex-row justify-between items-center md:items-start gap-8">
+
+    <div class="text-white flex flex-col items-center md:items-start text-center md:text-left">
+      <div class="flex flex-col md:flex-row items-center md:gap-3 mb-8">
+        <img src="sedra-wave-small-Yle47l0kxaiqD6Bv.avif" class="w-20 mb-2 md:mb-0">
+        <h1 class="text-2xl font-bold">Sedra Voice</h1>
+      </div>
+
+      <div class="flex items-center gap-3 mb-2 justify-center md:justify-start">
+        <svg class="w-7 h-7" fill="none" stroke="white" stroke-width="1.5" viewBox="0 0 24 24">
+          <rect x="3" y="3" width="18" height="18" rx="5"></rect>
+          <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+          <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+        </svg>
+      </div>
+
+      <span class="text-lg">Contact Us:</span>
+      <p class="text-lg mb-1">+965-99911612</p>
+      <a href="mailto:Bodouralmualii@sawtsidra.com" class="underline text-[#e9d8c9]">
+        Bodouralmualii@sawtsidra.com
+      </a>
+    </div>
+
+    <div class="flex flex-col items-center md:items-start">
+      <img 
+        src="footer-m7VDLgX2oMU7v3Ng.avif"
+        class="w-full max-w-[420px] h-auto rounded-md shadow-lg"
+      >
+      <p class="text-white text-sm mt-3 text-center md:text-left">
+        © 2025. All rights reserved.
+      </p>
+    </div>
+
+  </div>
+</footer>
+
+</body>
+</html>
+

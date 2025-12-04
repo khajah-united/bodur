@@ -1,0 +1,712 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sedra Voice — Home</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: { cairo: ['Cairo', 'sans-serif'] },
+        }
+      }
+    }
+  </script>
+  <style> body { font-family: 'Cairo', sans-serif; } .hero-title { text-shadow: 0 6px 18px rgba(0,0,0,0.45); } </style>
+</head>
+
+<body class="bg-white text-gray-800">
+ <header class="w-full bg-white shadow-sm">
+  <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+
+    <a href="index - eng.html" class="flex items-center gap-3">
+      <img src="sedra-wave-small-Yle47l0kxaiqD6Bv.avif" alt="logo" class="w-12 h-12 object-contain rounded-md">
+      <span class="font-bold text-lg">Sedra Voice</span>
+    </a>
+
+      <nav class="hidden lg:flex items-center gap-6 text-sm">
+        <a href="index - eng.html" class="hover:text-green-700">Home</a>
+        <a href="about - eng.html" class="hover:text-green-700">About</a>
+        <a href="beginning-and-end - eng.html" class="hover:text-green-700">Beginning and End</a>
+        <a href="kuwaiti-kitchen - eng.html" class="hover:text-green-700">Kuwaiti Kitchen</a>
+        <a href="customs-and-occasions - eng.html" class="hover:text-green-700">Customs and Occasions</a>
+        <a href="folk-arts - eng.html" class="hover:text-green-700">Folk Arts</a>
+        <a href="life-of-the-sea - eng.html" class="hover:text-green-700">Life of the Sea</a>
+        <a href="folk-games - Copy.html" class="hover:text-green-700">Folk Games</a>
+        <a href="bedouin-life - eng.html" class="hover:text-green-700">Bedouin Life</a>
+        <a href="proverbs - eng.html" class="hover:text-green-700">Proverbs</a>
+        <a href="professions-from-the-past - Copy.html" class="hover:text-green-700">Professions from the Past</a>
+      </nav>
+
+    <div class="flex items-center gap-3">
+      <a href="index.html" class="text-gray-600">
+      
+      <button class="hidden sm:inline-flex items-center gap-2 px-3 py-1 border rounded-full text-sm text-gray-600">
+        Kuwait
+      </button></a>
+
+      <a href="#" class="text-gray-600"></a>
+      <button onclick="openMenu()" class="lg:hidden text-3xl text-gray-700">
+        ☰
+      </button>
+    </div>
+
+  </div>
+</header>
+
+
+<div id="mobileMenu" class="fixed top-0 left-0 w-72 h-full bg-white shadow-xl z-50 -translate-x-full transition-all duration-300">
+  <div class="p-6 text-right">
+    <button onclick="closeMenu()" class="text-2xl mb-6">✖</button>
+    <nav class="flex flex-col gap-4 text-lg font-medium">
+      <a href="index - eng.html">Home</a>
+      <a href="about - eng.html">About</a>
+      <a href="beginning-and-end - eng.html">Beginning and End</a>
+      <a href="kuwaiti-kitchen - eng.html">Kuwaiti Kitchen</a>
+      <a href="customs-and-occasions - eng.html">Customs and Occasions</a>
+      <a href="folk-arts - eng.html">Folk Arts</a>
+      <a href="life-of-the-sea - eng.html">Life of the Sea</a>
+      <a href="bedouin-life - eng.html">Bedouin Life</a>
+      <a href="folk-games - Copy.html">Folk Games</a>
+      <a href="proverbs - eng.html">Proverbs</a>
+      <a href="professions-from-the-past - Copy.html">Professions from the Past</a>
+            <a href="index.html">الكويت</a>
+
+    </nav>
+  </div>
+</div>
+
+<div id="overlay" onclick="closeMenu()" class="fixed inset-0 bg-black/50 z-40 hidden"></div>
+
+<script>
+  function openMenu() {
+    document.getElementById("mobileMenu").classList.remove("-translate-x-full");
+    document.getElementById("overlay").classList.remove("hidden");
+  }
+  function closeMenu() {
+    document.getElementById("mobileMenu").classList.add("-translate-x-full");
+    document.getElementById("overlay").classList.add("hidden");
+  }
+</script>
+
+<section class="bg-[#f7ebe6] py-16 px-6" dir="ltr">
+  <div class="max-w-5xl mx-auto text-[#222] leading-relaxed">
+    <h2 class="text-3xl font-bold mb-8 text-center">Kuwaiti Kitchen</h2>
+    <p class="text-lg">
+      From the beginning I was interested in cooking. My favorite game was with the remains of small pots and utensils my mother did not use. I took a corner of the house to imitate what I used to see and felt it was the identity of the lady of the house. I lived in a home that loved food and distinguished it. My grandmother was known for Kuwaiti Jareesh and passed it down to my mother. When you taste it, even among many dishes, you could tell it was my mother’s Jareesh. At that time I felt as if dishes were honorary medals awarded to women. She did not only excel in that dish but in all dishes. As they say, my mother herself was sweet in cooking, and thank God I inherited a share of that. We also grew up listening to Professor Fatima Hussein and her programs. She was the first to document Kuwaiti cuisine in a book until it became one of the important necessities for students abroad.
+    </p>
+
+    <p class="text-lg mt-6">
+      That interest continued until I reached the master’s stage. My thesis was about food titled "When Food Becomes Identity: Cultural Dimensions in Anime Films – Hayao Miyazaki." Part of it was an extension of my love for food and its preparation, another part was our connection to anime films we watched in our childhood and the details of preparing meals and their variety, and thirdly the richness of Japanese culture in that matter. From this perspective my jealousy for our culture and the authenticity of Kuwaiti cuisine increased, searching between its lines for many values, diversity, development, and refined taste until I had in my hands a unique book on Kuwaiti cuisine titled "Kuwaiti Cuisine: Heritage and History of Peoples" by Professor Suad Radi. That book opened new horizons and gave great hope that dishes could be seen as history and identity in Kuwaiti cuisine.
+      <br><br>
+      From this perspective Kuwaiti cuisine had great importance and a door that reached my feelings and formed an image of my cultural identity. I wanted it to remain stable and reliable in any way to convey to the world those simple corners that were in old houses and fed many mouths of families and guests. That corner created women who carried on their chests all the medals of love and appreciation. Therefore I will speak about Kuwaiti cuisine from my heart before my mind, and Kuwaiti cuisine will be seen with completely different eyes than what we are used to.
+      The reference "The Old Kuwaiti House, compiled by Mohammed Al-Khars and Maryam Rashid Al-Aqroqa, 1999" had great merit in forming a clear perception of the parts of the old Kuwaiti house, especially in the details of the Kuwaiti kitchen, which helped me reimagine those places loaded with memories.
+    </p>
+  </div>
+</section>
+
+<section class="bg-white py-10 px-6" dir="ltr">
+  <div class="max-w-6xl mx-auto">
+
+    <h2 class="text-3xl font-bold text-[#222] mb-8 text-center">
+History of Kuwaiti Kitchen and Its Tools:
+    </h2>
+
+    <p class="text-lg">
+     The Kuwaiti kitchen went through multiple stages until we reached what we have today, mainly linked to the design of the place, the tools, and the availability of food materials and seasonings.
+</p>
+ <p class="text-lg text-center">
+    Architectural Design of the Kuwaiti Kitchen:
+</p>
+
+<p class="text-lg">
+The Kuwaiti house consists of several courtyards (open spaces with built parts), including the Diwaniya courtyard dedicated only to men, the Haram courtyard for the family, and the kitchen courtyard with its facilities such as a place for animals, a room for them to sleep in winter, the Dar Al-Keil or Al-Jeel (a storage room for food supplies), the fuel room (for storing fuel materials), and a sandy yard with a well (Jleeb) in the middle and a food drain. I will discuss these facilities in detail later, but first we will talk about the kitchen room.
+</p>
+
+<div class="flex flex-wrap md:flex-nowrap gap-8 justify-center items-start mt-10">
+  <div class="flex justify-center">
+    <img 
+      src="assest/مطبخ1.avif" 
+      alt="fabric cutting" 
+      class="w-[500px] h-[400px] object-cover rounded-none shadow-md"
+    />
+  </div>
+</div>
+
+  </div>
+</section>
+
+<section class="bg-[#f7ebe6] py-10 px-6" dir="ltr">
+  <div class="max-w-6xl mx-auto">
+
+    <h2 class="text-3xl font-bold text-[#222] mb-8 text-center">
+Kitchen Room:
+    </h2>
+    <p class="text-lg">
+    It consists of a room 3 meters long by 3 meters wide with a square opening for ventilation and light in the morning. It contains one or more (Marka) — a base of 3 stones or clay raised from the ground — to place pots and light fire. On the side there is a wooden table about 2 to 2.5 meters long, 50 cm high, and 90 cm wide, used inside or outside the kitchen to place cooking utensils after washing.
+    There is also a small cupboard with two doors to store spices, pots, and large perforated spoons.
+    </p>
+
+<div class="flex flex-wrap md:flex-nowrap gap-8 justify-center items-start mt-10">
+  <div class="flex justify-center">
+    <img 
+      src="assest/مطبخ2.avif" 
+      alt="fabric cutting" 
+      class="w-[500px] h-[400px] object-cover rounded-none shadow-md"
+    />
+  </div>
+</div>
+
+  </div>
+</section>
+
+<section class="bg-white py-10 px-6" dir="ltr">
+  <div class="max-w-6xl mx-auto">
+
+    <h2 class="text-3xl font-bold text-[#222] mb-8 text-center">
+Kitchen Table:
+    </h2>
+ 
+    <p class="text-lg">
+  It is like a small wooden table with dimensions ranging between 2 and 2.5 meters long, 80–90 cm wide, and 50 cm high. It is placed inside or outside the kitchen to arrange utensils after washing so they dry.
+</p>
+
+<div class="flex flex-wrap md:flex-nowrap gap-8 justify-center items-start mt-10">
+  <div class="flex justify-center">
+    <img 
+      src="assest/مطبخ3.avif" 
+      alt="fabric cutting" 
+      class="w-[500px] h-[400px] object-cover rounded-none shadow-md"
+    />
+  </div>
+</div>
+
+  </div>
+</section>
+
+<section class="bg-[#f7ebe6] py-10 px-6" dir="ltr">
+  <div class="max-w-6xl mx-auto">
+    <h2 class="text-3xl font-bold text-[#222] mb-8 text-center">
+Kitchen Cupboard:
+    </h2>
+    <p class="text-lg">
+It is a simple wooden cupboard with two doors, the upper part covered with a metal mesh that allows ventilation but prevents insects from entering. Its height is about 2 meters, width 1 meter, and depth 50 cm. It is used to store some preserved food, spices, and kitchen tools.
+</p>
+<div class="flex flex-wrap md:flex-nowrap gap-8 justify-center items-start mt-10">
+  <div class="flex justify-center">
+    <img 
+      src="assest/مطبخ4.avif" 
+      alt="fabric cutting" 
+      class="w-[500px] h-[400px] object-cover rounded-none shadow-md"
+    />
+  </div>
+</div>
+  </div>
+</section>
+
+<section class="bg-white py-10 px-6" dir="ltr">
+  <div class="max-w-6xl mx-auto">
+    <h2 class="text-3xl font-bold text-[#222] mb-8 text-center">
+Stove:
+    </h2>
+    <p class="text-lg">
+It is a pit surrounded by three stones covered with clay. In language, "Mawqid" or "Mustawqid" is the place of fire, and "Mawqida" is a structure made of stone and clay where fire is lit for cooking. Firewood and other fuel materials are placed between the stones, and the fire is lit after placing the pot on top.
+</p>
+<div class="flex flex-wrap md:flex-nowrap gap-8 justify-center items-start mt-10">
+  <div class="flex justify-center">
+    <img 
+      src="assest/مطبخ5.avif" 
+      alt="fabric cutting" 
+      class="w-[700px] h-[400px] object-cover rounded-none shadow-md"
+    />
+  </div>
+    <div class="flex justify-center">
+    <img 
+      src="assest/مطبخ6.avif" 
+      alt="fabric cutting" 
+      class="w-[500px] h-[400px] object-cover rounded-none shadow-md"
+    />
+  </div>
+</div>
+  </div>
+</section>
+
+<section class="bg-white py-10 px-6" dir="ltr">
+  <div class="max-w-6xl mx-auto">
+    <h2 class="text-2xl font-bold text-[#222] mb-8 text-center">
+There are several tools related to the stove:
+    </h2>
+     <h2 class="text-2xl  text-[#222] mb-8 text-center">
+Iron Rod (Mahraath):
+    </h2>
+    <p class="text-lg">
+It is an iron rod usually placed beside the stove or oven, used to stir the fire under the pot. Linguistically, "Mahreth" or "Mahraath" is what stirs the fire of the oven.
+</p>
+<div class="flex flex-wrap md:flex-nowrap gap-8 justify-center items-start mt-10">
+  <div class="flex justify-center">
+    <img 
+      src="assest/مطبخ7.avif" 
+      alt="fabric cutting" 
+      class="w-[400px] h-[500px] object-cover rounded-none shadow-md"
+    />
+  </div>
+</div>
+  </div>
+</section>
+
+<section class="bg-white py-10 px-6" dir="ltr">
+  <div class="max-w-6xl mx-auto">
+     <h2 class="text-2xl  text-[#222] mb-8 text-center">
+Tongs (Minqash):
+    </h2>
+    <p class="text-lg">
+An iron tong used to pick up embers or bread from the oven. It was one of the kitchen essentials and blacksmiths used to make it in different shapes and lengths.
+</p>
+<div class="flex flex-wrap md:flex-nowrap gap-8 justify-center items-start mt-10">
+  <div class="flex justify-center">
+    <img 
+      src="assest/مطبخ8.avif" 
+      alt="fabric cutting" 
+      class="w-[400px] h-[500px] object-cover rounded-none shadow-md"
+    />
+  </div>
+</div>
+  </div>
+</section>
+<section class="bg-white py-10 px-6" dir="ltr">
+  <div class="max-w-6xl mx-auto">
+     <h2 class="text-2xl  text-[#222] mb-8 text-center">
+Bellows (Munfakh):
+    </h2>
+    <p class="text-lg">
+It is a handheld tool used to blow air onto the fire to help ignite it. It has an oval shape ending with a tube from which air is pushed. It consists of two identical parts connected by leather that can stretch and relax to allow air in and push it out again. It was usually decorated with golden or silver pins in various shapes such as stars and flowers.
+</p>
+<div class="flex flex-wrap md:flex-nowrap gap-8 justify-center items-start mt-10">
+  <div class="flex justify-center">
+    <img 
+      src="assest/مطبخ9.avif" 
+      alt="fabric cutting" 
+      class="w-[400px] h-[500px] object-cover rounded-none shadow-md"
+    />
+  </div>
+</div>
+  </div>
+</section>
+
+
+
+<section class="bg-white py-10 px-6" dir="ltr">
+  <div class="max-w-6xl mx-auto">
+    
+     <h2 class="text-2xl  text-[#222] mb-8 text-center">
+Beiz:
+    </h2>
+    <p class="text-lg">
+It is a small square piece of thick cloth or padded with cotton, sewn by hand or sewing machine, used to hold hot pots. It is also used by the coffee server to hold the dallah. People decorate it with different colors and patterns.
+</p>
+<div class="flex flex-wrap md:flex-nowrap gap-8 justify-center items-start mt-10">
+  <div class="flex justify-center">
+    <img 
+      src="assest/مطبخ10.avif" 
+      alt="fabric cutting" 
+      class="w-[400px] h-[500px] object-cover rounded-none shadow-md"
+    />
+  </div>
+</div>
+
+  </div>
+</section>
+
+
+<section class="bg-white py-10 px-6" dir="ltr">
+  <div class="max-w-6xl mx-auto">
+    
+     <h2 class="text-2xl  text-[#222] mb-8 text-center">
+Marka:
+    </h2>
+    <p class="text-lg">
+It is a circular iron ring set on three or four legs. Pots and kettles are placed on top of it, and fire is lit underneath. It was made in different sizes depending on the size of the pots.
+</p>
+<div class="flex flex-wrap md:flex-nowrap gap-8 justify-center items-start mt-10">
+  <div class="flex justify-center">
+    <img 
+      src="assest/مطبخ11.avif" 
+      alt="fabric cutting" 
+      class="w-[400px] h-[500px] object-cover rounded-none shadow-md"
+    />
+  </div>
+</div>
+
+  </div>
+</section>
+
+
+
+<section class="bg-white py-10 px-6" dir="ltr">
+  <div class="max-w-6xl mx-auto">
+    
+     <h2 class="text-2xl  text-[#222] mb-8 text-center">
+Taouh:
+    </h2>
+    <p class="text-lg">
+It is a thick iron sheet, round and convex in shape, with a handle to hang it on the wall after use. It is placed on stands raised from the ground, with fire lit underneath to heat it, making it ready for spreading dough to bake Ragaq bread or Balbal bread — a type of thin white bread mixed with sugar and sprinkled with saffron water near completion. Other types of Taouh are used to prepare Sabeeb bread, which consists of small discs resembling modern pancakes, served with date syrup or sugar syrup.
+</p>
+     <h2 class="text-2xl  text-[#222] mb-8 text-center">
+Midsamah:
+    </h2>
+    <p class="text-lg">
+A piece of cloth in which some fat pieces are pressed, then used to wipe the Taouh after heating and before spreading the dough, so it does not stick.
+</p>
+<div class="flex flex-wrap md:flex-nowrap gap-8 justify-center items-start mt-10">
+  <div class="flex justify-center">
+    <img 
+      src="assest/مطبخ12.avif" 
+      alt="fabric cutting" 
+      class="w-[600px] h-[400px] object-cover rounded-none shadow-md"
+    />
+  </div>
+</div>
+
+  </div>
+</section>
+
+
+<section class="bg-[#f7ebe6] py-10 px-6" dir="ltr">
+  <div class="max-w-6xl mx-auto">
+    
+     <h2 class="text-2xl  text-[#222] mb-8 text-center">
+Joula (Persian J pronunciation):
+    </h2>
+    <p class="text-lg">
+It is a manufactured stove of various types and sizes that runs on kerosene. The ignition tool was a thick cotton wick ending in the fuel tank. When lit, it produced a high-heat flame, used for cooking food before gas and electric stoves appeared.
+</p>
+<div class="flex flex-wrap md:flex-nowrap gap-8 justify-center items-start mt-10">
+  <div class="flex justify-center">
+    <img 
+      src="assest/مطبخ13.avif" 
+      alt="fabric cutting" 
+      class="w-[400px] h-[500px] object-cover rounded-none shadow-md"
+    />
+  </div>
+</div>
+
+  </div>
+</section>
+
+
+
+<section class="bg-white py-10 px-6" dir="ltr">
+  <div class="max-w-6xl mx-auto">
+    
+     <h2 class="text-2xl  text-[#222] mb-8 text-center">
+Primus:
+    </h2>
+    <p class="text-lg">
+It is a copper stove of varying sizes, consisting of a kerosene tank fixed with three stands topped by a metal grid on which the pot to be heated is placed. On the side of the tank there is an opening with a pump that compresses air, pushing kerosene through a tube to the ignition head under the metal grid. When the flame weakened due to kerosene blockage, a special needle called "Primus needle" was inserted into the ignition eye and removed, quickly restoring the strong flame. It was mostly used to heat water.
+</p>
+<div class="flex flex-wrap md:flex-nowrap gap-8 justify-center items-start mt-10">
+  <div class="flex justify-center">
+    <img 
+      src="assest/مطبخ14.avif" 
+      alt="fabric cutting" 
+      class="w-[400px] h-[500px] object-cover rounded-none shadow-md"
+    />
+  </div>
+</div>
+
+  </div>
+</section>
+
+
+<section class="bg-[#f7ebe6] py-10 px-6" dir="ltr">
+  <div class="max-w-6xl mx-auto">
+    
+     <h2 class="text-2xl  text-[#222] mb-8 text-center">
+Dar Al-Keil:
+    </h2>
+    <p class="text-lg">
+The name of this room comes from "Keila" (Persian J pronunciation), which is a container used to measure grains and similar items. Women used it to determine how many measures of rice were needed for a meal. It could be made of copper, aluminum, or even an empty tin can. In my family, inherited from my grandmother to my mother and then to us, it was always a canned pineapple tin of a specific brand, used to measure rice. It was always found in the rice sack made of jute — natural fibers extracted from the jute plant in tropical regions — or in the flour or lentil sack, serving as the standard measure for the household.
+I heard many funny and sad stories about this room, especially in large family houses. It was mentioned in many old Kuwaiti tales. The aunt or housewife would lock the room and hang the key around her neck to prevent anyone from entering and wasting supplies. More than that, there was a wooden chest known as "Sahara Al-Keil" (in Kuwaiti dialect the letter K becomes Persian J, pronounced like CH in English). This chest, found in some houses, was large and deep, about 1.5 to 3 meters long, with a lid and lock. It usually contained dates, flour, salt, sugar, fat, spices, and some kitchen tools and utensils not used daily. The key was always with the housewife, and if she was extra cautious, the chest could even be moved into the bedroom.
+</p>
+<div class="flex flex-wrap md:flex-nowrap gap-8 justify-center items-start mt-10">
+  <div class="flex justify-center">
+    <img 
+      src="assest/مطبخ15.avif" 
+      alt="fabric cutting" 
+      class="w-[500px] h-[400px] object-cover rounded-none shadow-md"
+    />
+  </div>
+</div>
+
+  </div>
+</section>
+<section class="bg-[#f7ebe6] py-10 px-6" dir="ltr">
+  <div class="max-w-6xl mx-auto">
+    <p class="text-lg">
+It was also possible to store in that room some animal feed for the sheep courtyard, and dates packed in "Qulla," which were made from palm fronds (Khasaf) stacked on top of each other. Sometimes date syrup would drip onto the ground, making the room suitable for insects and rodents, which made it frightening for some. It also contained sacks of rice and legumes.
+    </p>
+<div class="flex flex-wrap md:flex-nowrap gap-8 justify-center items-start mt-10">
+  <div class="flex justify-center">
+    <img 
+      src="assest/مطبخ16.avif" 
+      alt="fabric cutting" 
+      class="w-[400px] h-[500px] object-cover rounded-none shadow-md"
+    />
+  </div>
+</div>
+  </div>
+</section>
+
+<section class="bg-white py-10 px-6" dir="ltr">
+  <div class="max-w-6xl mx-auto">
+  <h2 class="text-2xl  text-[#222] mb-8 text-center">
+Fuel Storage Room:
+    </h2>
+     <p class="text-lg">
+It was also possible to store in that room some animal feed for the sheep courtyard, and dates packed in "Qulla," which were made from palm fronds (Khasaf) stacked on top of each other. Sometimes date syrup would drip onto the ground, making the room suitable for insects and rodents, which made it frightening for some. It also contained sacks of rice and legumes.
+    </p>
+<div class="flex flex-wrap md:flex-nowrap gap-8 justify-center items-start mt-10">
+  <div class="flex justify-center">
+    <img 
+      src="assest/17مطبخ.avif" 
+      alt="fabric cutting" 
+      class="w-[500px] h-[400px] object-cover rounded-none shadow-md"
+    />
+  </div>
+</div>
+  </div>
+</section>
+
+<section class="bg-white py-10 px-6" dir="ltr">
+  <div class="max-w-6xl mx-auto">
+     <h2 class="text-2xl  text-[#222] mb-8 text-center">
+Karab:
+    </h2>
+    <p class="text-center">
+It is the base of palm fronds. In language, "Karab" refers to the thick bases of palm leaves that are cut with them, and its singular is "Karaba."
+    </p>
+<div class="flex flex-wrap md:flex-nowrap gap-8 justify-center items-start mt-10">
+  <div class="flex justify-center">
+    <img 
+      src="assest/مطبخ18.avif" 
+      alt="fabric cutting" 
+      class="w-[400px] h-[500px] object-cover rounded-none shadow-md"
+    />
+  </div>
+</div>
+  </div>
+</section>
+
+<section class="bg-white py-10 px-6" dir="ltr">
+  <div class="max-w-6xl mx-auto">
+    
+     <h2 class="text-2xl  text-[#222] mb-8 text-center">
+Lif (Palm Fiber):
+    </h2>
+    <p class="text-center">
+It is the coarse brown fibers that grow around the fronds at the top of the palm tree. It was used for many things other than fuel, such as making ropes.
+    </p>
+<div class="flex flex-wrap md:flex-nowrap gap-8 justify-center items-start mt-10">
+  <div class="flex justify-center">
+    <img 
+      src="assest/مطبخ19.avif" 
+      alt="fabric cutting" 
+      class="w-[400px] h-[500px] object-cover rounded-none shadow-md"
+    />
+  </div>
+</div>
+  </div>
+</section>
+
+
+<section class="bg-white py-10 px-6" dir="ltr">
+  <div class="max-w-6xl mx-auto">
+    
+     <h2 class="text-2xl  text-[#222] mb-8 text-center">
+Palm Fronds:
+    </h2>
+    <p class="text-center">
+It is the palm branches with leaves, and "Sa'af" is the plural of "Sa'fa." Before drying, the frond is divided into several parts: the "Jareed" or "Kafoud," which is the whole frond when the leaves and thorns are removed (singular: Jareeda). There was a popular children’s game called "Kafoud" because it was made from this material. The other parts are the leaves, Karab, thorns, and Lif. Bedouins called it "Aseeb," plural "Usub" or "Usban," which is a classical Arabic term. Palm branches were imported from neighboring countries by ships, dried, and used as fuel.
+    </p>
+<div class="flex flex-wrap md:flex-nowrap gap-8 justify-center items-start mt-10">
+  <div class="flex justify-center">
+    <img 
+      src="assest/مطبخ20.avif" 
+      alt="fabric cutting" 
+      class="w-[400px] h-[500px] object-cover rounded-none shadow-md"
+    />
+  </div>
+</div>
+  </div>
+</section>
+
+
+<section class="bg-white py-10 px-6" dir="ltr">
+  <div class="max-w-6xl mx-auto">
+    
+     <h2 class="text-2xl  text-[#222] mb-8 text-center">
+Hamad (Saline Plants):
+    </h2>
+    <p class="text-center">
+It refers to plants that grow in the hot season and contain salinity. There are several types, including (Ramth, Qullam, Athl, Arad, Shinan, Arfaj), some of which are small shrubs with needle-like leaves. Some Bedouins used to collect them and carry them to the city on donkeys to sell. They were known for burning slowly and producing high heat.
+    </p>
+<div class="flex flex-wrap md:flex-nowrap gap-8 justify-center items-start mt-10">
+  <div class="flex justify-center">
+    <img 
+      src="assest/مطبخ21.avif" 
+      alt="fabric cutting" 
+      class="w-[400px] h-[500px] object-cover rounded-none shadow-md"
+    />
+  </div>
+</div>
+  </div>
+</section>
+
+<section class="bg-white py-10 px-6" dir="ltr">
+  <div class="max-w-6xl mx-auto">
+    
+     <h2 class="text-2xl  text-[#222] mb-8 text-center">
+Charcoal:
+    </h2>
+    <p class="text-center">
+It is partially burned wood, imported to Kuwait for heating during winter. When burned, it turns into embers. Charcoal trade in Kuwait was popular, and there was even a special market called "Charcoal Market" located behind Souq Waqif. It was sold in sacks.
+    </p>
+<div class="flex flex-wrap md:flex-nowrap gap-8 justify-center items-start mt-10">
+  <div class="flex justify-center">
+    <img 
+      src="assest/مطبخ22.avif" 
+      alt="fabric cutting" 
+      class="w-[400px] h-[500px] object-cover rounded-none shadow-md"
+    />
+  </div>
+</div>
+  </div>
+</section>
+<section class="bg-white py-10 px-6" dir="ltr">
+  <div class="max-w-6xl mx-auto">
+    
+     <h2 class="text-2xl  text-[#222] mb-8 text-center">
+Qurm (Wood):
+    </h2>
+    <p class="text-center">
+It is wood cut from trees, imported from abroad, and used as fuel after being chopped into small pieces.
+    </p>
+<div class="flex flex-wrap md:flex-nowrap gap-8 justify-center items-start mt-10">
+  <div class="flex justify-center">
+    <img 
+      src="assest/مطبخ23.avif" 
+      alt="fabric cutting" 
+      class="w-[400px] h-[500px] object-cover rounded-none shadow-md"
+    />
+  </div>
+</div>
+  </div>
+</section>
+
+<section class="bg-white py-10 px-6" dir="ltr">
+  <div class="max-w-6xl mx-auto">
+    
+     <h2 class="text-2xl  text-[#222] mb-8 text-center">
+Kerosene (Kaz):
+    </h2>
+    <p class="text-center">
+It is kerosene, which before the discovery of oil was imported in tin containers from India and later from Abadan. Kerosene containers were sold from warehouses called "Kazkhana," a Persian word meaning "Kaz" (kerosene) and "khana" (house), i.e., "House of Kerosene." From there it was distributed to consumers. Kerosene was first used for lighting and to help ignite firewood, then used in heaters (Bukhari) and industrial stoves. There were various types that ran on kerosene, called "Kaz Joula," with a thick cotton wick ending in the fuel tank.
+    </p>
+<div class="flex flex-wrap md:flex-nowrap gap-8 justify-center items-start mt-10">
+  <div class="flex justify-center">
+    <img 
+      src="assest/مطبخ24.avif" 
+      alt="fabric cutting" 
+      class="w-[400px] h-[500px] object-cover rounded-none shadow-md"
+    />
+  </div>
+</div>
+  </div>
+</section>
+
+<section class="bg-white py-10 px-6" dir="ltr">
+  <div class="max-w-6xl mx-auto">
+    
+     <h2 class="text-2xl  text-[#222] mb-8 text-center">
+Jilla (Camel Dung):
+    </h2>
+    <p class="text-center">
+It is camel dung, collected in burlap sacks and sold in Safat Square. People, especially bakers, bought it to use as fuel for ovens due to the intense heat it produced when burned. In language, "Jilla" or "Jallat" means dung. There was also "Khatha," cow dung, which was also collected, dried in the sun, and used as fuel or fertilizer for the land. Linguistically, "Khatha" means the cow expelled its dung, and its plural is "Akhthea."
+    </p>
+<div class="flex flex-wrap md:flex-nowrap gap-8 justify-center items-start mt-10">
+  <div class="flex justify-center">
+    <img 
+      src="assest/مطبخ25.avif" 
+      alt="fabric cutting" 
+      class="w-[400px] h-[500px] object-cover rounded-none shadow-md"
+    />
+  </div>
+</div>
+  </div>
+</section>
+
+<section class="bg-white py-10 px-6" dir="ltr">
+  <div class="max-w-6xl mx-auto">
+    
+     <h2 class="text-2xl  text-[#222] mb-8 text-center">
+Jleeb (Well) and Food Drain:
+    </h2>
+    <p class="text-center">
+It was a cement basin built in the corner of the courtyard near the kitchen, used for washing hands and household utensils. Food residues mixed with wash water would flow into a covered pit nearby, made specifically for this purpose so they would not mix with other waste water. Linguistically, "Balou’a" means a hole made for draining water, or a channel in the house where dirty water flows. In dialect, "Zad" means food. The food drain was separated so that food residues would not mix with other waste from the toilets attached to the house.
+    </p>
+<div class="flex flex-wrap md:flex-nowrap gap-8 justify-center items-start mt-10">
+  <div class="flex justify-center">
+    <img 
+      src="assest/مطبخ26.avif" 
+      alt="fabric cutting" 
+      class="w-[400px] h-[500px] object-cover rounded-none shadow-md"
+    />
+  </div>
+</div>
+  </div>
+</section>
+
+<footer class="w-full bg-[#835034] py-10 px-5 md:px-10" dir="ltr">
+  <div class="w-full flex flex-col md:flex-row justify-between items-center md:items-start gap-8">
+
+    <div class="text-white flex flex-col items-center md:items-start text-center md:text-left">
+      
+      <div class="flex flex-col md:flex-row items-center md:gap-3 mb-8">
+        <img src="sedra-wave-small-Yle47l0kxaiqD6Bv.avif" class="w-20 mb-2 md:mb-0">
+        <h1 class="text-2xl font-bold">Sedra Voice</h1>
+      </div>
+
+      <div class="flex items-center gap-3 mb-2 justify-center md:justify-start">
+        <svg class="w-7 h-7" fill="none" stroke="white" stroke-width="1.5" viewBox="0 0 24 24">
+          <rect x="3" y="3" width="18" height="18" rx="5"></rect>
+          <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+          <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+        </svg>
+      </div>
+
+      <span class="text-lg">Contact us:</span>
+      <p class="text-lg mb-1">+965-99911612</p>
+      <a href="mailto:Bodouralmualii@sawtsidra.com" class="underline text-[#e9d8c9]">
+        Bodouralmualii@sawtsidra.com
+      </a>
+    </div>
+
+    <div class="flex flex-col items-center md:items-start">
+      <img 
+        src="footer-m7VDLgX2oMU7v3Ng.avif"
+        class="w-full max-w-[420px] h-auto rounded-md shadow-lg"
+      >
+      <p class="text-white text-sm mt-3 text-center md:text-left">
+        © 2025. All rights reserved.
+      </p>
+    </div>
+
+  </div>
+</footer>
+
+</body>
+</html>
+

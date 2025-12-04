@@ -1,0 +1,338 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sedra Voice — Home</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: { cairo: ['Cairo', 'sans-serif'] },
+        }
+      }
+    }
+  </script>
+  <style> body { font-family: 'Cairo', sans-serif; } .hero-title { text-shadow: 0 6px 18px rgba(0,0,0,0.45); } </style>
+</head>
+
+<body class="bg-white text-gray-800">
+ <header class="w-full bg-white shadow-sm">
+  <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+
+    <a href="index - eng.html" class="flex items-center gap-3">
+      <img src="sedra-wave-small-Yle47l0kxaiqD6Bv.avif" alt="logo" class="w-12 h-12 object-contain rounded-md">
+      <span class="font-bold text-lg">Sedra Voice</span>
+    </a>
+
+      <nav class="hidden lg:flex items-center gap-6 text-sm">
+        <a href="index - eng.html" class="hover:text-green-700">Home</a>
+        <a href="about - eng.html" class="hover:text-green-700">About</a>
+        <a href="beginning-and-end - eng.html" class="hover:text-green-700">Beginning and End</a>
+        <a href="kuwaiti-kitchen - eng.html" class="hover:text-green-700">Kuwaiti Kitchen</a>
+        <a href="customs-and-occasions - eng.html" class="hover:text-green-700">Customs and Occasions</a>
+        <a href="folk-arts - eng.html" class="hover:text-green-700">Folk Arts</a>
+        <a href="life-of-the-sea - eng.html" class="hover:text-green-700">Life of the Sea</a>
+        <a href="folk-games - Copy.html" class="hover:text-green-700">Folk Games</a>
+        <a href="bedouin-life - eng.html" class="hover:text-green-700">Bedouin Life</a>
+        <a href="proverbs - eng.html" class="hover:text-green-700">Proverbs</a>
+        <a href="professions-from-the-past - Copy.html" class="hover:text-green-700">Professions from the Past</a>
+      </nav>
+
+    <div class="flex items-center gap-3">
+      <a href="index.html" class="text-gray-600">
+      
+      <button class="hidden sm:inline-flex items-center gap-2 px-3 py-1 border rounded-full text-sm text-gray-600">
+        Kuwait
+      </button></a>
+
+      <a href="#" class="text-gray-600"></a>
+      <button onclick="openMenu()" class="lg:hidden text-3xl text-gray-700">
+        ☰
+      </button>
+    </div>
+
+  </div>
+</header>
+
+
+<div id="mobileMenu" class="fixed top-0 left-0 w-72 h-full bg-white shadow-xl z-50 -translate-x-full transition-all duration-300">
+  <div class="p-6 text-right">
+    <button onclick="closeMenu()" class="text-2xl mb-6">✖</button>
+    <nav class="flex flex-col gap-4 text-lg font-medium">
+      <a href="index - eng.html">Home</a>
+      <a href="about - eng.html">About</a>
+      <a href="beginning-and-end - eng.html">Beginning and End</a>
+      <a href="kuwaiti-kitchen - eng.html">Kuwaiti Kitchen</a>
+      <a href="customs-and-occasions - eng.html">Customs and Occasions</a>
+      <a href="folk-arts - eng.html">Folk Arts</a>
+      <a href="life-of-the-sea - eng.html">Life of the Sea</a>
+      <a href="bedouin-life - eng.html">Bedouin Life</a>
+      <a href="folk-games - Copy.html">Folk Games</a>
+      <a href="proverbs - eng.html">Proverbs</a>
+      <a href="professions-from-the-past - Copy.html">Professions from the Past</a>
+            <a href="index.html">الكويت</a>
+
+    </nav>
+  </div>
+</div>
+
+<div id="overlay" onclick="closeMenu()" class="fixed inset-0 bg-black/50 z-40 hidden"></div>
+
+<script>
+  function openMenu() {
+    document.getElementById("mobileMenu").classList.remove("-translate-x-full");
+    document.getElementById("overlay").classList.remove("hidden");
+  }
+  function closeMenu() {
+    document.getElementById("mobileMenu").classList.add("-translate-x-full");
+    document.getElementById("overlay").classList.add("hidden");
+  }
+</script>
+
+
+<section class="bg-white py-10 px-6" dir="ltr">
+  <div class="max-w-6xl mx-auto">
+    <h2 class="text-3xl font-bold text-[#222] mb-8 text-center">
+Sea Life
+    </h2>
+
+    <div class="flex flex-wrap md:flex-nowrap gap-8 justify-center items-start mt-10">
+      <div class="flex justify-center">
+        <img 
+          src="assest/بحر1.avif" 
+          alt="fabric cutting" 
+          class="w-[400px] h-[300px] object-cover rounded-none shadow-md"
+        />
+      </div>
+      <div class="flex justify-center">
+        <img 
+          src="assest/بحر2.avif" 
+          alt="fabric cutting" 
+          class="w-[400px] h-[300px] object-cover rounded-none shadow-md"
+        />
+      </div>
+      <div class="flex justify-center">
+        <img 
+          src="assest/بحر3.avif" 
+          alt="fabric cutting" 
+          class="w-[400px] h-[300px] object-cover rounded-none shadow-md"
+        />
+      </div>
+      <div class="flex justify-center">
+        <img 
+          src="assest/بحر4.avif" 
+          alt="fabric cutting" 
+          class="w-[400px] h-[300px] object-cover rounded-none shadow-md"
+        />
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="bg-[#f7ebe6] py-10 px-6" dir="ltr">
+  <div class="max-w-6xl mx-auto">
+
+    <h2 class="text-3xl font-bold text-[#222] mb-8 text-center">
+Divers – The Seib
+    </h2>
+    <h2 class="text-1xl font-bold text-[#222] mb-8 text-center">
+Diving
+    </h2>
+ <p class="text-center">
+Diving was one of the professions practiced by our ancestors in Kuwait. It was their main source of livelihood and income in the past. Diving was a tiring profession with many risks for those working in it, whether as a diver (Ghais) or a rope holder (Seib). This work required high physical fitness and courage. Many attempted to work in diving, but some could not endure its hardships and escaped once they reached land.
+ </p>
+
+    <h2 class="text-1xl font-bold text-[#222] mb-8 text-center">
+Diving in the past had four types, only one of which was subject to diving law:
+    </h2>
+ <p class="text-center">
+1. Khanjiya: The first diving season, occurring at the end of spring in April. Their ships were close to the coast and few in number, in the nearby "Adan diving spots." Khanjiya diving was not subject to diving law.<br>
+2. Diving: The well-known diving season, using both large and small ships. Large ships went to distant diving spots, while small ships stayed near the coast. This type was subject to diving law.<br>
+3. Redda: Meaning "returning again to dive," after the main season ended in September. Redda occurred in October when the sea was cold. It resembled Khanjiya diving. Few ships participated, mostly small ones.<br>
+4. Irdeida: This type occurred in November when the waters were very cold. It was near the coasts, short in duration, and not subject to diving law.<br><br>
+In Khanjiya, Redda, and Irdeida diving, the diver’s share was his own, and the captain (Nokhitha) did not take any portion.
+ </p>
+
+    <h2 class="text-1xl font-bold text-[#222] mb-8 text-center">
+Preparation for Diving
+    </h2>
+ <p class="text-center">
+In old Kuwait, people prepared for diving before each season. Divers registered with the Nokhitha they wanted to join. The Nokhitha would lend money to the sailors before departure (called "Dasha") according to the government’s set amount. The diver gave the money to his family to spend during his absence. Divers and rope holders then bought the necessary equipment for diving:<br>
+1. Futtam: A small piece made from turtle bone, placed on the diver’s nose to prevent water from entering.<br>
+2. Dain: A basket-like container made of ropes with a wooden arc at the top, used to collect oysters.<br>
+3. Khabbat: Leather placed on the diver’s fingertips to protect them from cuts while collecting oysters, especially sharp shells.<br>
+4. Hajar: A lead weight used to help the diver descend to the seabed.<br>
+5. Shamshool: A short black pair of shorts worn instead of a waistcloth, giving freedom of movement underwater (similar to modern swimwear).<br>
+6. Diving Suit: A black cloth outfit, two pieces resembling a shirt and trousers, with long sleeves covering the body except for the head and feet. It protected against jellyfish stings.<br>
+7. Eida: A long rope, 40–45 fathoms, used to pull the diver up from the seabed.<br>
+8. Zaybel: A long rope used by the Seib to pull up the stone after the diver reached the seabed.<br>
+9. Tartoora: A long cap or head covering, often used by Bedouins to protect their long hair while diving.
+ </p>
+      
+ <div class="flex flex-wrap md:flex-nowrap gap-8 justify-center items-start mt-10">
+  <div class="flex justify-center">
+    <img 
+      src="assest/بحر5.avif" 
+      alt="fabric cutting" 
+      class="w-[600px] h-[400px] object-cover rounded-none shadow-md"
+    />
+  </div>
+  <div class="flex justify-center">
+    <img 
+      src="assest/بحر6.avif" 
+      alt="fabric cutting" 
+      class="w-[600px] h-[400px] object-cover rounded-none shadow-md"
+    />
+  </div>
+</div>
+
+  </div>
+</section>
+
+<section class="bg-white py-10 px-6" dir="ltr">
+  <div class="max-w-6xl mx-auto">
+
+ <h2 class="text-3xl font-bold text-[#222] mb-8 text-center">
+Pearl Merchants (Tuwash) and Captains (Nokhitha)
+</h2>
+<p class="text-lg">
+The term "Tuwashin" (plural: Tuwawish) referred to pearl merchants in old Kuwait. They played a major role in growing Kuwait’s economy, making it a center for pearl trade. After the decline of the pearl industry, the profession disappeared. Among the notable figures were the late Mohammed bin Ali bin Mousa bin Asfour, one of the great pearl merchants during the reign of Kuwait’s fifth ruler, followed by the late Suleiman Al-Yaqoub, the first judge of divers (known as "Al-Salfa"). Later generations included the late Hilal bin Fajhan Al-Mutairi, the late Shamlān bin Ali and his brother Hussein bin Ali, the late Ibrahim bin Mudhaf, and Abdulrahman bin Yusuf Al-Roumi, among many others.
+<br><br>
+In Kuwait, there were many men who worked in this profession, both major and minor pearl merchants.
+<br><br>
+During each diving season, pearl merchants prepared for their work. The major merchants traveled in their large ships to pearl diving spots (Ahirat) in Kuwaiti waters, Bahrain, Al-Ahsa, Qatar, and sometimes Oman. They visited Bahrain to buy and sell pearls, meet fellow merchants, check pearl markets, and stock provisions.
+<br><br>
+Smaller merchants used small ships called "Tchalah," originally used for transporting goods like stones. Sometimes two or three merchants shared one ship to reduce costs. They carried rice, sugar, and dates to sell to divers for profit.
+<br><br>
+One of the most famous merchants who sold provisions to divers was the late Isa Al-Qatami, along with Sheikh Hafiz Wahba, an Egyptian-born historian who worked for King Abdulaziz Al Saud. Wahba also traded pearls and documented his travels in his book *Fifty Years in Arabia*. Other merchants included Abdullah bin Yaqout, Abdullah Al-Farhan, Sayed Mohammed Al-Rifai, Abdullah bin Nasser Al-Roudhan, Hamoud Al-Roudhan, Ibrahim Al-Sayegh, Mousa Al-Sayegh, and others who sold provisions either for cash or on credit after the divers returned.
+<br><br>
+Pearl Buying Trips: Merchants traveled to buy pearls about two months after divers departed, once large quantities were collected. They knew fabric prices abroad, especially in Bahrain (the Gulf’s pearl center) and Bombay (the largest pearl market). They returned with the divers during the "Qafal" (return).
+<br><br>
+Merchants often took their sons with them to teach them the trade, training them in weights, shapes, and types of pearls from a young age.
+<br><br>
+Life on Merchant Ships: Life was comfortable. Merchants had clean food, eating two meals daily, with cooks onboard preparing fresh fish, coffee, and tea. Some, like Shamlān bin Ali Al-Seif, even brought goats for fresh milk. Breakfast often included Ragaq bread prepared by the cook.
+<br><br>
+Sailors on Merchant Ships: Sailors were hired for fixed wages ranging from 100 to 200 rupees, sometimes up to 400, for the entire voyage ("Qatou’a"). Pay depended on whether the merchant was major or minor. Large ships had 5–10 sailors, sometimes up to 20, plus elderly companions.
+<br><br>
+Work of Sailors: Sailors rowed small boats (Qalass) to move between diving ships, a tiring job especially in Bahrain and Oman. In Kuwait, distances were shorter.
+<br><br>
+Meals with Captains: Merchants often invited captains (Nokhitha) for meals, providing good food and cold water. Major merchants distributed meat to their associates. Each merchant was linked to certain captains and divers, financing their trips. If a captain took money from a merchant, he was obliged to sell pearls to him. Some captains financed their own trips, preferred by divers since they could sell pearls freely, known as "Market Sellers."
+<br><br>
+Tools of Merchants: After buying pearls, merchants sorted them by size, color, and roundness using special tools:
+- Taws (Copper Bowls): Circular bowls with holes of different sizes used to sift pearls into groups by size, then select the best by roundness and color. Reddish pearls were considered excellent, followed by white, yellowish, and gray. Small pearls called "Sahatit" were cheap and sold by weight.
+- Scale: A highly sensitive balance used to weigh pearls, kept in a beautiful copper case. Weights were made of copper or agate stones. Small units were called "Mithqal."
+</p>
+
+
+<div class="flex flex-wrap md:flex-nowrap gap-8 justify-center items-start mt-10">
+  <div class="flex justify-center">
+    <img 
+      src="assest/بحر7.avif" 
+      alt="fabric cutting" 
+      class="w-[600px] h-[400px] object-cover rounded-none shadow-md"
+    />
+  </div>
+
+  <div class="flex justify-center">
+    <img 
+      src="assest/بحر8.avif" 
+      alt="fabric cutting" 
+      class="w-[600px] h-[400px] object-cover rounded-none shadow-md"
+    />
+  </div>
+</div>
+
+  </div>
+</section>
+
+<section class="bg-[#f7ebe6] py-10 px-6" dir="ltr">
+  <div class="max-w-6xl mx-auto">
+
+    <h2 class="text-3xl font-bold text-[#222] mb-8 text-center">
+The Cook
+    </h2>
+    
+<div class="flex flex-wrap md:flex-nowrap gap-8 justify-center items-start mt-10">
+
+  <div class="flex justify-center">
+    <img 
+      src="assest/بحر9.avif" 
+      alt="fabric cutting" 
+      class="w-[600px] h-[400px] object-cover rounded-none shadow-md"
+    />
+  </div>
+
+</div>
+
+  </div>
+</section>
+
+<section class="bg-white py-10 px-6" dir="ltr">
+  <div class="max-w-6xl mx-auto">
+
+    <h2 class="text-3xl font-bold text-[#222] mb-8 text-center">
+Opening Oysters (Pearl Extraction)
+    </h2>
+    
+    <p class="text-center">
+In the early morning, after diving and collecting oysters, divers and rope holders prepared to open them, a process called "Falaq Al-Mahal" (oyster opening). The oysters were opened using a special knife called "Mufallaqa." Everyone worked together to open oysters in search of pearls. Sometimes the oysters were abundant, so they were set aside for the rope holders to continue opening while the divers returned to the sea to collect more. When large quantities were gathered and the ship was full, divers stopped diving, a stage called "Yahlazoon."
+    </p>
+
+<div class="flex flex-wrap md:flex-nowrap gap-8 justify-center items-start mt-10">
+  <div class="flex justify-center">
+    <img 
+      src="assest/بحر10.avif" 
+      alt="fabric cutting" 
+      class="w-[600px] h-[400px] object-cover rounded-none shadow-md"
+    />
+  </div>
+</div>
+
+  </div>
+</section>
+
+</main>
+<footer class="w-full bg-[#835034] py-10 px-5 md:px-10" dir="ltr">
+  <div class="w-full flex flex-col md:flex-row justify-between items-center md:items-start gap-8">
+
+    <div class="text-white flex flex-col items-center md:items-start text-center md:text-left">
+      
+      <div class="flex flex-col md:flex-row items-center md:gap-3 mb-8">
+        <img src="sedra-wave-small-Yle47l0kxaiqD6Bv.avif" class="w-20 mb-2 md:mb-0">
+        <h1 class="text-2xl font-bold">Sedra Voice</h1>
+      </div>
+
+      <div class="flex items-center gap-3 mb-2 justify-center md:justify-start">
+        <svg class="w-7 h-7" fill="none" stroke="white" stroke-width="1.5" viewBox="0 0 24 24">
+          <rect x="3" y="3" width="18" height="18" rx="5"></rect>
+          <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+          <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+        </svg>
+      </div>
+
+      <span class="text-lg">Contact us:</span>
+      <p class="text-lg mb-1">+965-99911612</p>
+      <a href="mailto:Bodouralmualii@sawtsidra.com" class="underline text-[#e9d8c9]">
+        Bodouralmualii@sawtsidra.com
+      </a>
+    </div>
+
+    <div class="flex flex-col items-center md:items-start">
+      <img 
+        src="footer-m7VDLgX2oMU7v3Ng.avif"
+        class="w-full max-w-[420px] h-auto rounded-md shadow-lg"
+      >
+      <p class="text-white text-sm mt-3 text-center md:text-left">
+        © 2025. All rights reserved.
+      </p>
+    </div>
+
+  </div>
+</footer>
+
+</body>
+</html>
+

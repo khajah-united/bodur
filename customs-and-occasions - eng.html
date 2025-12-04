@@ -1,0 +1,668 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sedra Voice — Home</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: { cairo: ['Cairo', 'sans-serif'] },
+        }
+      }
+    }
+  </script>
+  <style> body { font-family: 'Cairo', sans-serif; } .hero-title { text-shadow: 0 6px 18px rgba(0,0,0,0.45); } </style>
+</head>
+
+<body class="bg-white text-gray-800">
+ <header class="w-full bg-white shadow-sm">
+  <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+
+    <a href="index - eng.html" class="flex items-center gap-3">
+      <img src="sedra-wave-small-Yle47l0kxaiqD6Bv.avif" alt="logo" class="w-12 h-12 object-contain rounded-md">
+      <span class="font-bold text-lg">Sedra Voice</span>
+    </a>
+
+      <nav class="hidden lg:flex items-center gap-6 text-sm">
+        <a href="index - eng.html" class="hover:text-green-700">Home</a>
+        <a href="about - eng.html" class="hover:text-green-700">About</a>
+        <a href="beginning-and-end - eng.html" class="hover:text-green-700">Beginning and End</a>
+        <a href="kuwaiti-kitchen - eng.html" class="hover:text-green-700">Kuwaiti Kitchen</a>
+        <a href="customs-and-occasions - eng.html" class="hover:text-green-700">Customs and Occasions</a>
+        <a href="folk-arts - eng.html" class="hover:text-green-700">Folk Arts</a>
+        <a href="life-of-the-sea - eng.html" class="hover:text-green-700">Life of the Sea</a>
+        <a href="folk-games - Copy.html" class="hover:text-green-700">Folk Games</a>
+        <a href="bedouin-life - eng.html" class="hover:text-green-700">Bedouin Life</a>
+        <a href="proverbs - eng.html" class="hover:text-green-700">Proverbs</a>
+        <a href="professions-from-the-past - Copy.html" class="hover:text-green-700">Professions from the Past</a>
+      </nav>
+
+    <div class="flex items-center gap-3">
+      <a href="index.html" class="text-gray-600">
+      
+      <button class="hidden sm:inline-flex items-center gap-2 px-3 py-1 border rounded-full text-sm text-gray-600">
+        Kuwait
+      </button></a>
+
+      <a href="#" class="text-gray-600"></a>
+      <button onclick="openMenu()" class="lg:hidden text-3xl text-gray-700">
+        ☰
+      </button>
+    </div>
+
+  </div>
+</header>
+
+
+<div id="mobileMenu" class="fixed top-0 left-0 w-72 h-full bg-white shadow-xl z-50 -translate-x-full transition-all duration-300">
+  <div class="p-6 text-right">
+    <button onclick="closeMenu()" class="text-2xl mb-6">✖</button>
+    <nav class="flex flex-col gap-4 text-lg font-medium">
+      <a href="index - eng.html">Home</a>
+      <a href="about - eng.html">About</a>
+      <a href="beginning-and-end - eng.html">Beginning and End</a>
+      <a href="kuwaiti-kitchen - eng.html">Kuwaiti Kitchen</a>
+      <a href="customs-and-occasions - eng.html">Customs and Occasions</a>
+      <a href="folk-arts - eng.html">Folk Arts</a>
+      <a href="life-of-the-sea - eng.html">Life of the Sea</a>
+      <a href="bedouin-life - eng.html">Bedouin Life</a>
+      <a href="folk-games - Copy.html">Folk Games</a>
+      <a href="proverbs - eng.html">Proverbs</a>
+      <a href="professions-from-the-past - Copy.html">Professions from the Past</a>
+            <a href="index.html">الكويت</a>
+
+    </nav>
+  </div>
+</div>
+<div id="overlay" onclick="closeMenu()" class="fixed inset-0 bg-black/50 z-40 hidden"></div>
+
+<script>
+  function openMenu() {
+    document.getElementById("mobileMenu").classList.remove("-translate-x-full");
+    document.getElementById("overlay").classList.remove("hidden");
+  }
+  function closeMenu() {
+    document.getElementById("mobileMenu").classList.add("-translate-x-full");
+    document.getElementById("overlay").classList.add("hidden");
+  }
+</script>
+
+<section class="bg-[#f7ebe6] py-10 px-6" dir="ltr">
+  <div class="max-w-6xl mx-auto">
+
+    <h2 class="text-3xl font-bold text-[#222] mb-8 text-center">
+      The Old Kuwaiti House
+    </h2>
+
+    <div class="flex flex-wrap md:flex-nowrap gap-8 justify-center items-start mt-10">
+      <div class="flex justify-center">
+        <img 
+          src="assest/عادات1.avif" 
+          alt="Old Kuwaiti House" 
+          class="w-[2000px] h-[400px] object-cover rounded-none shadow-md"
+        />
+      </div>
+    </div>
+
+    <div class="flex flex-wrap md:flex-nowrap gap-8 justify-center items-start mt-10">
+      <div class="flex justify-center">
+        <img 
+          src="assest/عادات2.avif" 
+          alt="Old Kuwaiti House Detail 1" 
+          class="w-[300px] h-[300px] object-cover rounded-none shadow-md"
+        />
+      </div>
+      <div class="flex justify-center">
+        <img 
+          src="assest/عادات3.avif" 
+          alt="Old Kuwaiti House Detail 2" 
+          class="w-[300px] h-[300px] object-cover rounded-none shadow-md"
+        />
+      </div>
+      <div class="flex justify-center">
+        <img 
+          src="assest/عادات4.avif" 
+          alt="Old Kuwaiti House Detail 3" 
+          class="w-[300px] h-[300px] object-cover rounded-none shadow-md"
+        />
+      </div>
+      <div class="flex justify-center">
+        <img 
+          src="assest/عادات5.avif" 
+          alt="Old Kuwaiti House Detail 4" 
+          class="w-[300px] h-[300px] object-cover rounded-none shadow-md"
+        />
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<section class="bg-white py-10 px-6" dir="ltr">
+  <div class="max-w-6xl mx-auto">
+
+    <h2 class="text-3xl font-bold text-[#222] mb-8 text-center">
+      The Old Kuwaiti Wedding
+    </h2>
+
+    <div class="flex flex-wrap md:flex-nowrap gap-8 justify-center items-start mt-10">
+      <div class="flex justify-center">
+        <img 
+          src="assest/عادات6.avif" 
+          alt="Old Kuwaiti Wedding Scene 1" 
+          class="w-[300px] h-[300px] object-cover rounded-none shadow-md"
+        />
+      </div>
+      <div class="flex justify-center">
+        <img 
+          src="assest/عادات7.avif" 
+          alt="Old Kuwaiti Wedding Scene 2" 
+          class="w-[300px] h-[300px] object-cover rounded-none shadow-md"
+        />
+      </div>
+      <div class="flex justify-center">
+        <img 
+          src="assest/عادات7.avif" 
+          alt="Old Kuwaiti Wedding Scene 3" 
+          class="w-[300px] h-[300px] object-cover rounded-none shadow-md"
+        />
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="bg-white py-10 px-6" dir="ltr">
+  <div class="max-w-6xl mx-auto">
+
+    <h2 class="text-3xl font-bold text-[#222] mb-8 text-center">
+      Al-Dazza
+    </h2>
+    <p class="text-lg">
+      The family of the groom prepares the "Dazza," which consists of the dowry. Its value varies depending on the financial situation of the wedding. Included in the Dazza is the "Baqsha," containing six to seven pieces of fabric, two cloaks, jewelry, bed linens, towels, and other marriage essentials. Traditionally, on the day of presenting the Dazza, the groom’s mother, along with relatives and women from the family, would go to the bride’s house to deliver it.
+    </p>
+
+    <div class="flex flex-wrap md:flex-nowrap gap-8 justify-center items-start mt-10">
+      <div class="flex justify-center">
+        <img 
+          src="assest/عادات9.avif" 
+          alt="Dazza Preparation Scene 1" 
+          class="w-[400px] h-[400px] object-cover rounded-none shadow-md"
+        />
+      </div>
+      <div class="flex justify-center">
+        <img 
+          src="assest/عادات10.avif" 
+          alt="Dazza Preparation Scene 2" 
+          class="w-[400px] h-[400px] object-cover rounded-none shadow-md"
+        />
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="bg-[#f7ebe6] py-10 px-6" dir="ltr">
+  <div class="max-w-6xl mx-auto">
+
+    <h2 class="text-3xl font-bold text-[#222] mb-8 text-center">
+      Al-Jalwa (Al-Yalwa)
+    </h2>
+
+    <p class="text-lg">
+      The wedding night is the most anticipated night for every bride. In the past, preparing the bride in Kuwait was known as "Al-Jalwa" or "Al-Yalwa" in Kuwaiti dialect. At sunset, the henna night ceremonies begin, with many relatives of the bride gathering. Al-Jalwa consists of songs and chants accompanied by prayers, sung by women in celebration of the bride. The bride sits on a chair wearing a bright green dress adorned with gold jewelry. Four women hold a large green cloth decorated with golden threads and inscribed with phrases like "Hab Al-Saad" (Gift of Happiness). They lower it over the bride’s head while chanting blessings and praises:
+    </p>
+
+    <p class="text-center">A wish in her wishes</p>
+    <p class="text-center">Beautiful in her meanings</p>
+    <p class="text-center">She appeared and shone until</p>
+    <p class="text-center">She asked God to bless her</p>
+    <p class="text-center">Her forehead shines like the full moon</p>
+    <p class="text-center">Her lips heal my ailments</p>
+    <p class="text-center">Her lips heal my ailments</p>
+    <p class="text-center">And her meanings are graceful</p>
+
+    <div class="flex flex-wrap md:flex-nowrap gap-8 justify-center items-start mt-10">
+      <div class="flex justify-center">
+        <img 
+          src="assest/عادات11.avif" 
+          alt="Al-Jalwa Ceremony Scene 1" 
+          class="w-[400px] h-[400px] object-cover rounded-none shadow-md"
+        />
+      </div>
+      <div class="flex justify-center">
+        <img 
+          src="assest/عادات12.avif" 
+          alt="Al-Jalwa Ceremony Scene 2" 
+          class="w-[400px] h-[400px] object-cover rounded-none shadow-md"
+        />
+      </div>
+      <div class="flex justify-center">
+        <img 
+          src="assest/عادات1.avif" 
+          alt="Al-Jalwa Ceremony Scene 3" 
+          class="w-[400px] h-[400px] object-cover rounded-none shadow-md"
+        />
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="bg-white py-1 px-6" dir="rtl">
+  <div class="max-w-6xl mx-auto">
+    <h2 class="text-3xl font-bold text-[#222] mb-8 text-center">
+
+<div class="flex flex-wrap md:flex-nowrap gap-8 justify-center items-start mt-10">
+  
+  <div class="flex justify-center">
+    <img 
+      src="assest/عادات14.avif" 
+      alt="قص القماش" 
+      class="w-[400px] h-[400px] object-cover rounded-none shadow-md"
+    />
+  </div>
+ <div class="flex justify-center">
+    <img 
+      src="assest/عادات15.avif" 
+      alt="قص القماش" 
+      class="w-[400px] h-[400px] object-cover rounded-none shadow-md"
+    />
+  </div>
+<div class="flex justify-center">
+    <img 
+      src="assest/عادات16.avif" 
+      alt="قص القماش" 
+      class="w-[400px] h-[400px] object-cover rounded-none shadow-md"
+    />
+  </div>
+</div>
+  </div>
+</section>
+<section class="bg-white py-10 px-6" dir="ltr">
+  <div class="max-w-6xl mx-auto">
+    <h2 class="text-3xl font-bold text-[#222] mb-8 text-center">
+      Groom’s Procession (Zaffa)
+    </h2>
+    <p class="text-lg">
+      After the marriage contract at the bride’s father’s house, the groom is escorted on foot to the bride’s home by his family and friends carrying torches, singing traditional songs known as “Samri” and other old folk arts. The wedding procession is led by the groom, his father, relatives, elders, youth, and children. Upon arrival, women sing, wear their cloaks, and cover their faces before the men enter. The groom then gathers with close companions to receive congratulations. If he enters among the women, drums are played, rosewater is sprinkled, and eventually the groom is left to be joined with the bride.
+    </p>
+    <div class="flex flex-wrap md:flex-nowrap gap-8 justify-center items-start mt-10">
+      <div class="flex justify-center">
+        <img 
+          src="assest/عادات17.avif" 
+          alt="Wedding procession scene 1" 
+          class="w-[600px] h-[400px] object-cover rounded-none shadow-md"
+        />
+      </div>
+      <div class="flex justify-center">
+        <img 
+          src="assest/عادات18.avif" 
+          alt="Wedding procession scene 2" 
+          class="w-[600px] h-[400px] object-cover rounded-none shadow-md"
+        />
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="bg-white py-1 px-6" dir="ltr">
+  <div class="max-w-6xl mx-auto">
+    <h2 class="text-3xl font-bold text-[#222] mb-8 text-center">
+      Coffee
+    </h2>
+    <p class="text-lg">
+      Kuwaitis knew coffeehouses (called “Qahwa”), which were simple in furniture with wooden chairs and small tables, serving only Arabic coffee. Coffeehouses spread widely, especially in Safat Square, a commercial hub for visitors from the desert, Basra, and distant Kuwaiti villages. These coffeehouses gathered citizens to spend leisure time and exchange news. One of the most famous old coffeehouses was Bonashi Café.
+    </p>
+    <div class="flex flex-wrap md:flex-nowrap gap-8 justify-center items-start mt-10">
+      <div class="flex justify-center">
+        <img 
+          src="assest/عادات19.avif" 
+          alt="Old Kuwaiti coffeehouse scene 1" 
+          class="w-[400px] h-[300px] object-cover rounded-none shadow-md"
+        />
+      </div>
+      <div class="flex justify-center">
+        <img 
+          src="assest/عادات20.avif" 
+          alt="Old Kuwaiti coffeehouse scene 2" 
+          class="w-[400px] h-[300px] object-cover rounded-none shadow-md"
+        />
+      </div>
+      <div class="flex justify-center">
+        <img 
+          src="assest/عادات21.avif" 
+          alt="Old Kuwaiti coffeehouse scene 3" 
+          class="w-[400px] h-[300px] object-cover rounded-none shadow-md"
+        />
+      </div>
+      <div class="flex justify-center">
+        <img 
+          src="assest/عادات22.avif" 
+          alt="Old Kuwaiti coffeehouse scene 4" 
+          class="w-[400px] h-[300px] object-cover rounded-none shadow-md"
+        />
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="bg-white py-1 px-6" dir="ltr">
+  <div class="max-w-6xl mx-auto">
+    <h2 class="text-3xl font-bold text-[#222] mb-8 text-center">
+      Al-Amariyat
+    </h2>
+    <p class="text-lg">
+      Al-Amariya was a shelter made from palm fronds (saf) seen in the old Gharabally market. Its purpose was to protect sellers from the sun. It was set up on two wooden poles and carried away at the end of the day. It was important for caravans coming from the desert, where they sold ghee, dried yogurt, locusts, truffles, wool, arfaq, and some desert plants used for medicine.
+    </p>
+    <div class="flex flex-wrap md:flex-nowrap gap-8 justify-center items-start mt-10">
+      <div class="flex justify-center">
+        <img 
+          src="assest/عادات23.avif" 
+          alt="Al-Amariya shelter scene 1" 
+          class="w-[400px] h-[300px] object-cover rounded-none shadow-md"
+        />
+      </div>
+      <div class="flex justify-center">
+        <img 
+          src="assest/عادات24.avif" 
+          alt="Al-Amariya shelter scene 2" 
+          class="w-[400px] h-[300px] object-cover rounded-none shadow-md"
+        />
+      </div>
+      <div class="flex justify-center">
+        <img 
+          src="assest/عادات25.avif" 
+          alt="Al-Amariya shelter scene 3" 
+          class="w-[400px] h-[300px] object-cover rounded-none shadow-md"
+        />
+      </div>
+      <div class="flex justify-center">
+        <img 
+          src="assest/عادات26.avif" 
+          alt="Al-Amariya shelter scene 4" 
+          class="w-[400px] h-[300px] object-cover rounded-none shadow-md"
+        />
+      </div>
+    </div>
+  </div>
+</section>
+<section class="bg-[#f7ebe6] py-10 px-6" dir="ltr">
+  <div class="max-w-6xl mx-auto">
+
+    <h2 class="text-3xl font-bold text-[#222] mb-8 text-center">
+      Customs in the Holy Month of Ramadan
+    </h2>
+
+    <h2 class="text-1xl font-bold text-[#222] mb-8 text-center">
+      Preparing Harees:
+    </h2>
+
+    <p class="text-lg">
+      Harees is ground wheat prepared for Ramadan. Kuwaiti families used to buy large amounts of wheat before Ramadan and invite specialized women to prepare it. The process was accompanied by rhythmic songs and expressive movements performed by women’s groups. The wheat was placed in a wooden cylindrical vessel called “Al-Minhaz,” about one meter long, hollow inside, with a long wooden pestle. The grains were pounded until crushed, accompanied by work songs to ease the effort. Wealthy families had more than one Minhaz, while poorer families borrowed from neighbors without hesitation, reflecting the spirit of solidarity. The accompanying song was:
+    </p>
+
+    <p class="text-center">Ya Allah, Ya Allah, Ya Allah, Ya Allah</p>
+    <p class="text-center">Ya Allah, Ya Allah, O Generous One</p>
+    <p class="text-center">A clear plea to God for strength to complete the hard work.</p>
+
+    <div class="flex flex-wrap md:flex-nowrap gap-8 justify-center items-start mt-10">
+      <div class="flex justify-center">
+        <img src="assest/عاددات27.avif" alt="Preparing Harees Scene 1" class="w-[400px] h-[300px] object-cover rounded-none shadow-md"/>
+      </div>
+      <div class="flex justify-center">
+        <img src="assest/عادات28.avif" alt="Preparing Harees Scene 2" class="w-[400px] h-[300px] object-cover rounded-none shadow-md"/>
+      </div>
+      <div class="flex justify-center">
+        <img src="assest/عادات29.avif" alt="Preparing Harees Scene 3" class="w-[400px] h-[300px] object-cover rounded-none shadow-md"/>
+      </div>
+      <div class="flex justify-center">
+        <img src="assest/عادات30.avif" alt="Preparing Harees Scene 4" class="w-[400px] h-[300px] object-cover rounded-none shadow-md"/>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="bg-white py-1 px-6" dir="ltr">
+  <div class="max-w-6xl mx-auto">
+    <h2 class="text-3xl font-bold text-[#222] mb-8 text-center">
+      Ramadan Cannon (Al-Warda)
+    </h2>
+    <p class="text-lg">
+      The word “Toob” is Turkish for cannon. In Kuwait, the Ramadan cannon was called “Al-Warda.” It was introduced during the era of Sheikh Mubarak Al-Sabah. Historian Adel Al-Saadoun notes that Ali bin Aqab Al-Khazraji was the first to fire the Ramadan cannon in Kuwait, having learned from the Ottomans. The cannon was located at “Seif Al-Toob,” now the site of the Ministry of Foreign Affairs near Seif Palace. Families and children gathered daily before sunset to watch the cannon fire, shouting praises and chants. Afterward, everyone returned home to break their fast.
+    </p>
+
+    <div class="flex flex-wrap md:flex-nowrap gap-8 justify-center items-start mt-10">
+      <div class="flex justify-center">
+        <img src="assest/عادات31.avif" alt="Ramadan Cannon Scene 1" class="w-[600px] h-[300px] object-cover rounded-none shadow-md"/>
+      </div>
+      <div class="flex justify-center">
+        <img src="assest/عادات32.avif" alt="Ramadan Cannon Scene 2" class="w-[600px] h-[300px] object-cover rounded-none shadow-md"/>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="bg-[#f7ebe6] py-10 px-6" dir="ltr">
+  <div class="max-w-6xl mx-auto">
+
+    <h2 class="text-3xl font-bold text-[#222] mb-8 text-center">
+      Qarqian
+    </h2>
+
+    <p class="text-lg">
+      Researcher Dr. Yaqoub Al-Ghunim explained that “Qarqian” means a mix of items, usually nuts and sweets. The name may come from “Qarqa’a,” meaning clattering sounds, referring to the noise of metal containers and drums used by children. In old Kuwait, Qarqian was sold in sweet markets, and children eagerly awaited it. They roamed neighborhoods in groups, boys and girls separately, singing traditional songs. Mothers sewed cloth bags called “Khreeta” for children to collect treats. Boys sang “Salim Walad-hum Ya Allah Khalla Li-Ummah Ya Allah,” while girls sang “Qarqian, Qarqian, Bayt Qaseer Ramadan.” Families prepared sweets and welcomed children, fostering joy and community. Similar traditions exist across the Gulf under different names: “Qarqian,” “Qarnqouh,” “Qarnqshouh,” and “Haq Al-Leila.”
+    </p>
+
+    <h2 class="text-3xl font-bold mb-6 text-center">Girls’ Song</h2>
+    <p class="text-lg text-center">Qarqian, Qarqian</p>
+    <p class="text-lg text-center">Short house in Ramadan</p>
+    <p class="text-lg text-center">May fasting return to you</p>
+    <p class="text-lg text-center">Every year and every time</p>
+    <p class="text-lg text-center">O Allah, protect their son</p>
+    <p class="text-lg text-center">O Allah, keep him for his mother</p>
+    <p class="text-lg text-center">May the spot not harm him</p>
+    <p class="text-lg text-center">Nor hide him from his mother</p>
+    <p class="text-lg text-center">Give us, and God will give you</p>
+    <p class="text-lg text-center">May Mecca take you</p>
+    <p class="text-lg text-center">O Kaaba, O Amoura</p>
+    <p class="text-lg text-center">O mother of chains, gold, and light</p>
+
+    <h2 class="text-3xl font-bold mt-10 mb-6 text-center">Boys’ Song</h2>
+    <p class="text-lg text-center">Protect their son .. Ya Allah</p>
+    <p class="text-lg text-center">Keep him for his mother .. Ya Allah</p>
+    <p class="text-lg text-center">Ya Allah, Ya Allah, Ya Allah, Ya Allah</p>
+
+    <div class="flex flex-wrap md:flex-nowrap gap-8 justify-center items-start mt-10">
+      <div class="flex justify-center">
+        <img src="assest/عادات33.avif" alt="Qarqian Scene 1" class="w-[400px] h-[300px] object-cover rounded-none shadow-md"/>
+      </div>
+      <div class="flex justify-center">
+        <img src="assest/عادات34.avif" alt="Qarqian Scene 2" class="w-[400px] h-[300px] object-cover rounded-none shadow-md"/>
+      </div>
+      <div class="flex justify-center">
+        <img src="assest/عادات35.avif" alt="Qarqian Scene 3" class="w-[400px] h-[300px] object-cover rounded-none shadow-md"/>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="bg-[#f7ebe6] py-10 px-6" dir="ltr">
+  <div class="max-w-6xl mx-auto">
+
+    <h2 class="text-3xl font-bold text-[#222] mb-8 text-center">
+      The Sea in the Past
+    </h2>
+
+    <h2 class="text-1xl font-bold text-[#222] mb-8 text-center">
+      Heya Beyeya
+    </h2>
+
+    <p class="text-lg">
+      This was a tradition practiced by children on the 9th of Dhul-Hijjah (Day of Arafat). They would throw the “Heya Beyeya,” a small basket containing barley or cress seeds, into the sea once the grass had grown. Standing by the shore, they tossed it into the water while chanting songs.
+    </p>
+
+    <h2 class="text-3xl font-bold mb-6 text-center">They would chant together the famous “Heya Beyeya” song</h2>
+    <h2 class="text-xl font-bold mb-6 text-center">Which begins with:</h2>
+
+    <p class="text-lg text-center">Heya Beyeya.. went Beyeya.. came Beyeya.. on the path of Haniniya.</p>
+    <p class="text-lg text-center">O my Heya Beyeya.. House of Mecca knock for me..</p>
+    <p class="text-lg text-center">Drink from Zamzam water.. pray for our homes to be safe..</p>
+    <p class="text-lg text-center">Heya Beyeya.. went Beyeya.. came Beyeya.. on the path of Haniniya..</p>
+    <p class="text-lg text-center">O Lord, may our feasts always bring joy..</p>
+    <p class="text-lg text-center">I fed you and cared for you, don’t pray against me..</p>
+    <p class="text-lg text-center">Heya Beyeya.. went Beyeya.. came Beyeya.. on the path of Haniniya..</p>
+    <p class="text-lg text-center">I fed you and cared for you, and on Eid day I cast you away..</p>
+    <p class="text-lg text-center">Goodbye my Heya Beyeya.. may God protect you..</p>
+
+    <p class="text-lg">
+      The song reflects the child’s plea for the Heya Beyeya to witness for him, not against him. The tradition symbolized sacrifice and care, ending with throwing the basket into the sea. The word “Heya Beyeya” is believed to come from “Haji Beyji,” meaning “the pilgrim will return” after Hajj. Families spent a joyful day by the sea, teaching children lessons of care and sacrifice.
+    </p>
+
+    <div class="flex flex-wrap md:flex-nowrap gap-8 justify-center items-start mt-10">
+      <div class="flex justify-center">
+        <img src="assest/عادات36.avif" alt="Heya Beyeya tradition scene 1" class="w-[600px] h-[300px] object-cover rounded-none shadow-md"/>
+      </div>
+      <div class="flex justify-center">
+        <img src="assest/عادات37.avif" alt="Heya Beyeya tradition scene 2" class="w-[600px] h-[300px] object-cover rounded-none shadow-md"/>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="bg-white py-10 px-6" dir="ltr">
+  <div class="max-w-6xl mx-auto">
+    <h2 class="text-2xl text-[#222] mb-8 text-center">
+      Washing Clothes
+    </h2>
+    <p class="text-lg">
+      In the past, washing clothes was a difficult task using water and natural cleaning materials such as “Shinan,” “Arad,” clay, and “Haradh.” Gulf women washed clothes by scrubbing and beating them on rocks with wooden paddles, then rinsed and spread them to dry. Delicate fabrics were left without wringing, simply spread to dry, then stretched by hand to regain their shape. Clothes were folded, perfumed, or smoked with incense before storage. Women often went to the shore to wash clothes and household items.
+    </p>
+    <div class="flex flex-wrap md:flex-nowrap gap-8 justify-center items-start mt-10">
+      <div class="flex justify-center">
+        <img src="assest/عادات38.avif" alt="Washing clothes scene" class="w-[500px] h-[400px] object-cover rounded-none shadow-md"/>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="bg-[#f7ebe6] py-10 px-6" dir="ltr">
+  <div class="max-w-6xl mx-auto">
+    <h2 class="text-3xl font-bold text-[#222] mb-8 text-center">
+      Top Top Ya Bahr
+    </h2>
+    <p class="text-lg">
+      This song was sung by women before the “Qaffal” (return of pearl divers) about three to four weeks prior. Families eagerly awaited their loved ones’ return. Women gathered at the shore after sunset, led by a strong woman, while others collected palm fronds to light fires. Standing in a circle, they sang chants such as:
+    </p>
+    <p class="text-lg text-center">Top Top Ya Bahr, Top Top Ya Bahr, the fifth month has entered...</p>
+    <p class="text-lg text-center">Bring them back, O sea, don’t defy God...</p>
+    <p class="text-lg">
+      The song mentioned names of pearl merchants and captains, symbolizing pleas for the safe return of divers. Women believed scaring and “disciplining” the sea with fire and chants would ensure their loved ones’ safe return. They even dipped a cat adorned with flowers into the sea, its cries answered by women chanting “Yao Yao Yao,” meaning “They are coming.” This ritual expressed longing, grief, and hope for reunion.
+    </p>
+
+    <div class="flex flex-wrap md:flex-nowrap gap-8 justify-center items-start mt-10">
+      <div class="flex justify-center">
+        <img src="assest/عادات39.avif" alt="Top Top Ya Bahr scene 1" class="w-[400px] h-[300px] object-cover rounded-none shadow-md"/>
+      </div>
+      <div class="flex justify-center">
+        <img src="assest/عادات40.avif" alt="Top Top Ya Bahr scene 2" class="w-[400px] h-[300px] object-cover rounded-none shadow-md"/>
+      </div>
+      <div class="flex justify-center">
+        <img src="assest/عادات41.avif" alt="Top Top Ya Bahr scene 3" class="w-[400px] h-[300px] object-cover rounded-none shadow-md"/>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="bg-white py-10 px-6" dir="ltr">
+  <div class="max-w-6xl mx-auto">
+
+    <h2 class="text-3xl font-bold text-[#222] mb-8 text-center">
+      Al-Mutawwa – The Khatma and the Ceremony of the Khatim
+    </h2>
+
+    <!-- Al-Mutawwa -->
+    <h2 class="text-1xl font-bold mb-6 text-center">Al-Mutawwa</h2>
+    <p class="text-lg mb-6">
+      Before the establishment of the Department of Knowledge and the spread of public schools in Kuwait, there were private schools that taught the Qur’an, Islamic studies, reading, writing, calligraphy, and arithmetic. These schools were supervised by a person called “Mulla” or “Mutawwa,” sometimes assisted by other teachers. The school was usually a small old house owned or rented cheaply by the Mulla, furnished with simple items such as mats, water jars, wooden boards for writing, and the Mulla’s chair. Parents brought their children to these schools and negotiated fees: some paid a monthly salary called “Mashahra,” while others agreed on a lump sum called “Qatou’a,” paid after completing the Qur’an.
+    </p>
+
+    <!-- Khatma Ceremony -->
+    <h2 class="text-1xl font-bold mb-6 text-center">Khatma Ceremony</h2>
+    <p class="text-lg mb-6">
+      A joyful occasion was the completion of the Qur’an. When a boy finished reciting the Qur’an under the Mulla’s supervision, he was called “Al-Khatim.” Wealthy families held banquets and celebrations, while poorer families borrowed traditional attire to honor the child. The Khatim appeared dignified, accompanied by his parents and classmates. He sat beside the Mulla, flowers and incense spread among the attendees, and the Mulla held his hand, clapping in joy. A festive gathering followed, with students receiving flowers and incense before leaving in honor of the occasion.
+    </p>
+
+    <!-- Tahmeeda -->
+    <h2 class="text-1xl font-bold mb-6 text-center">Tahmeeda</h2>
+    <div class="space-y-1 text-lg text-center">
+      <p>Praise be to God who guided us to Islam.</p>
+      <p>Glory be to Him, the Creator, who taught us the Qur’an.</p>
+      <p>We praise Him as flowers bloom and dew falls.</p>
+      <p>Then prayers upon the guide Muhammad, who brought the truth.</p>
+      <p>This boy has read, written, and learned speeches and letters.</p>
+      <p>Do not fall short, son of noble Arabs, nor let anger overcome you.</p>
+      <p>My teacher repeated lessons with care, never neglecting me.</p>
+      <p>I learned the great Book until I read it as others did.</p>
+      <p>May God reward my father with Paradise and strengthen his legacy.</p>
+      <p>In eternal Heaven with his children.</p>
+      <p>Give the teacher his due, for he was merciful to us.</p>
+      <p>Praise be to God, the Praiseworthy, the Originator, to whom belong the birds and thunder.</p>
+      <p>Birds came to you, O birds of the Mahdi, adorned with feathers… (and so on).</p>
+    </div>
+
+    <div class="flex flex-wrap md:flex-nowrap gap-8 justify-center items-start mt-10">
+      <div class="flex justify-center">
+        <img src="assest/عادات42.avif" alt="Mutawwa school scene 1" class="w-[400px] h-[300px] object-cover rounded-none shadow-md"/>
+      </div>
+      <div class="flex justify-center">
+        <img src="assest/عادات43.avif" alt="Mutawwa school scene 2" class="w-[400px] h-[300px] object-cover rounded-none shadow-md"/>
+      </div>
+      <div class="flex justify-center">
+        <img src="assest/عادات44.avif" alt="Mutawwa school scene 3" class="w-[400px] h-[300px] object-cover rounded-none shadow-md"/>
+      </div>
+      <div class="flex justify-center">
+        <img src="assest/عادات45.avif" alt="Mutawwa school scene 4" class="w-[400px] h-[300px] object-cover rounded-none shadow-md"/>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="w-full bg-[#835034] py-10 px-5 md:px-10" dir="ltr">
+  <div class="w-full flex flex-col md:flex-row justify-between items-center md:items-start gap-8">
+
+    <div class="text-white flex flex-col items-center md:items-start text-center md:text-left">
+      <div class="flex flex-col md:flex-row items-center md:gap-3 mb-8">
+        <img src="sedra-wave-small-Yle47l0kxaiqD6Bv.avif" class="w-20 mb-2 md:mb-0">
+        <h1 class="text-2xl font-bold">Sedra Voice</h1>
+      </div>
+
+      <div class="flex items-center gap-3 mb-2 justify-center md:justify-start">
+        <svg class="w-7 h-7" fill="none" stroke="white" stroke-width="1.5" viewBox="0 0 24 24">
+          <rect x="3" y="3" width="18" height="18" rx="5"></rect>
+          <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+          <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+        </svg>
+      </div>
+
+      <span class="text-lg">Contact Us:</span>
+      <p class="text-lg mb-1">+965-99911612</p>
+      <a href="mailto:Bodouralmualii@sawtsidra.com" class="underline text-[#e9d8c9]">
+        Bodouralmualii@sawtsidra.com
+      </a>
+    </div>
+
+    <div class="flex flex-col items-center md:items-start">
+      <img src="footer-m7VDLgX2oMU7v3Ng.avif" class="w-full max-w-[420px] h-auto rounded-md shadow-lg">
+      <p class="text-white text-sm mt-3 text-center md:text-left">
+        © 2025. All rights reserved.
+      </p>
+    </div>
+
+  </div>
+</footer>
+
+</body>
+</html>
+
