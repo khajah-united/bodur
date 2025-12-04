@@ -1,0 +1,310 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sedra Voice — Home</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: { cairo: ['Cairo', 'sans-serif'] },
+        }
+      }
+    }
+  </script>
+  <style> body { font-family: 'Cairo', sans-serif; } .hero-title { text-shadow: 0 6px 18px rgba(0,0,0,0.45); } </style>
+</head>
+
+<body class="bg-white text-gray-800">
+ <header class="w-full bg-white shadow-sm">
+  <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+
+    <a href="index - eng.html" class="flex items-center gap-3">
+      <img src="sedra-wave-small-Yle47l0kxaiqD6Bv.avif" alt="logo" class="w-12 h-12 object-contain rounded-md">
+      <span class="font-bold text-lg">Sedra Voice</span>
+    </a>
+
+      <nav class="hidden lg:flex items-center gap-6 text-sm">
+        <a href="index - eng.html" class="hover:text-green-700">Home</a>
+        <a href="about - eng.html" class="hover:text-green-700">About</a>
+        <a href="beginning-and-end - eng.html" class="hover:text-green-700">Beginning and End</a>
+        <a href="kuwaiti-kitchen - eng.html" class="hover:text-green-700">Kuwaiti Kitchen</a>
+        <a href="customs-and-occasions - eng.html" class="hover:text-green-700">Customs and Occasions</a>
+        <a href="folk-arts - eng.html" class="hover:text-green-700">Folk Arts</a>
+        <a href="life-of-the-sea - eng.html" class="hover:text-green-700">Life of the Sea</a>
+        <a href="folk-games - Copy.html" class="hover:text-green-700">Folk Games</a>
+        <a href="bedouin-life - eng.html" class="hover:text-green-700">Bedouin Life</a>
+        <a href="proverbs - eng.html" class="hover:text-green-700">Proverbs</a>
+        <a href="professions-from-the-past - Copy.html" class="hover:text-green-700">Professions from the Past</a>
+      </nav>
+
+    <div class="flex items-center gap-3">
+      <a href="index.html" class="text-gray-600">
+      
+      <button class="hidden sm:inline-flex items-center gap-2 px-3 py-1 border rounded-full text-sm text-gray-600">
+        Kuwait
+      </button></a>
+
+      <a href="#" class="text-gray-600"></a>
+      <button onclick="openMenu()" class="lg:hidden text-3xl text-gray-700">
+        ☰
+      </button>
+    </div>
+
+  </div>
+</header>
+
+
+<div id="mobileMenu" class="fixed top-0 left-0 w-72 h-full bg-white shadow-xl z-50 -translate-x-full transition-all duration-300">
+  <div class="p-6 text-right">
+    <button onclick="closeMenu()" class="text-2xl mb-6">✖</button>
+    <nav class="flex flex-col gap-4 text-lg font-medium">
+      <a href="index - eng.html">Home</a>
+      <a href="about - eng.html">About</a>
+      <a href="beginning-and-end - eng.html">Beginning and End</a>
+      <a href="kuwaiti-kitchen - eng.html">Kuwaiti Kitchen</a>
+      <a href="customs-and-occasions - eng.html">Customs and Occasions</a>
+      <a href="folk-arts - eng.html">Folk Arts</a>
+      <a href="life-of-the-sea - eng.html">Life of the Sea</a>
+      <a href="bedouin-life - eng.html">Bedouin Life</a>
+      <a href="folk-games - Copy.html">Folk Games</a>
+      <a href="proverbs - eng.html">Proverbs</a>
+      <a href="professions-from-the-past - Copy.html">Professions from the Past</a>
+            <a href="index.html">الكويت</a>
+
+    </nav>
+  </div>
+</div>
+
+<div id="overlay" onclick="closeMenu()" class="fixed inset-0 bg-black/50 z-40 hidden"></div>
+
+<script>
+  function openMenu() {
+    document.getElementById("mobileMenu").classList.remove("-translate-x-full");
+    document.getElementById("overlay").classList.remove("hidden");
+  }
+  function closeMenu() {
+    document.getElementById("mobileMenu").classList.add("-translate-x-full");
+    document.getElementById("overlay").classList.add("hidden");
+  }
+</script>
+<section class="bg-[#f7ebe6] py-12 px-6" dir="ltr">
+  <div class="max-w-6xl mx-auto">
+
+    <!-- Main Title -->
+    <h2 class="text-3xl font-bold text-[#222] mb-8 text-center">Our Main Product</h2>
+
+    <!-- Main Product -->
+    <div class="flex flex-col md:flex-row gap-8 items-center justify-center bg-white p-6 rounded-lg shadow-md">
+      <img 
+        src="Screenshot_٢٠٢٥١٢٠١-٢١٤٠٤٤_Drive.jpg" 
+        alt="Main Product" 
+        class="w-[500px] h-[400px] object-cover rounded-md"
+      />
+      <div class="text-left max-w-xl">
+        <h3 class="text-2xl font-bold mb-4 text-[#222]">Mythical Creatures in Kuwaiti Heritage and Their Counterparts in World Folklore</h3>
+        <p class="text-lg mb-4 text-[#444]">Author: Bodour Ibrahim Mohammed Al-Muaili – 2025</p>
+        <p class="text-lg mb-4 text-[#444]">Number of pages: 132</p>
+        <p class="text-xl font-semibold text-[#b45309]">Price: 10 KWD</p>
+        <button class="bg-[#b45309] hover:bg-[#92400e] text-white font-semibold py-2 px-6 rounded-full transition duration-300">
+          Order Now
+        </button>
+      </div>
+    </div>
+
+    <!-- Other Products -->
+    <h2 class="text-3xl font-bold text-[#222] mt-16 mb-8 text-center">Other Products</h2>
+
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+
+      <!-- Product 1 -->
+      <div class="bg-white p-6 rounded-lg shadow-md text-left">
+        <img src="assest/منتج.jpg" alt="Winter Cap" class="w-full h-[300px] object-cover rounded-md mb-4"/>
+        <h3 class="text-xl font-bold mb-2 text-[#222]">Winter Cap with Shemagh Pattern</h3>
+        <p class="text-sm text-[#444] mb-2">
+          A unique winter cap with the traditional Shemagh pattern, designed to be lightweight, comfortable, and warm. Sizes: Head circumference: 53–59 cm, Length: 28 cm, Width: 26.8 cm
+        </p>
+        <p class="text-lg font-semibold text-[#b45309]">Price: 2 KWD</p>
+        <button class="bg-[#b45309] hover:bg-[#92400e] text-white font-semibold py-2 px-6 rounded-full transition duration-300">Order Now</button>
+      </div>
+
+      <!-- Product 2 -->
+      <div class="bg-white p-6 rounded-lg shadow-md text-left">
+        <img src="assest/منتج٢.jpg" alt="Carpet Coasters" class="w-full h-[300px] object-cover rounded-md mb-4"/>
+        <h3 class="text-xl font-bold mb-2 text-[#222]">Traditional Carpet Coasters Mini</h3>
+        <p class="text-sm text-[#444] mb-2">Unique coasters inspired by traditional Arabic carpets. Size: 9 × 13 cm</p>
+        <p class="text-lg font-semibold text-[#b45309]">Price: 1 KWD</p>
+        <button class="bg-[#b45309] hover:bg-[#92400e] text-white font-semibold py-2 px-6 rounded-full transition duration-300">Order Now</button>
+      </div>
+
+      <!-- Product 3 -->
+      <div class="bg-white p-6 rounded-lg shadow-md text-left">
+        <img src="assest/منتج٣.jpg" alt="Sadu Socks" class="w-full h-[300px] object-cover rounded-md mb-4"/>
+        <h3 class="text-xl font-bold mb-2 text-[#222]">Sadu Pattern Socks</h3>
+        <p class="text-sm text-[#444] mb-2">Elegant socks inspired by traditional Sadu patterns, combining comfort with heritage style. Perfect for daily use.</p>
+        <p class="text-lg font-semibold text-[#b45309]">Price: 2 KWD</p>
+        <button class="bg-[#b45309] hover:bg-[#92400e] text-white font-semibold py-2 px-6 rounded-full transition duration-300">Order Now</button>
+      </div>
+
+      <!-- Product 4 -->
+      <div class="bg-white p-6 rounded-lg shadow-md text-left">
+        <img src="assest/منتج٤.jpg" alt="Canvas Tote Bag" class="w-full h-[300px] object-cover rounded-md mb-4"/>
+        <h3 class="text-xl font-bold mb-2 text-[#222]">Traditional Canvas Tote Bag</h3>
+        <p class="text-sm text-[#444] mb-2">A practical canvas bag with a simple heritage-inspired design featuring old plant motifs. Lightweight, stylish, and perfect for daily use such as work, university, or shopping. Strong beige fabric suits all outfits.</p>
+        <p class="text-lg font-semibold text-[#b45309]">Price: 3 KWD</p>
+        <button class="bg-[#b45309] hover:bg-[#92400e] text-white font-semibold py-2 px-6 rounded-full transition duration-300">Order Now</button>
+      </div>
+
+      <!-- Product 5 -->
+      <div class="bg-white p-6 rounded-lg shadow-md text-left">
+        <img src="assest/منتج٥.jpg" alt="Ceramic Mug" class="w-full h-[300px] object-cover rounded-md mb-4"/>
+        <h3 class="text-xl font-bold mb-2 text-[#222]">Ceramic Mug with Heritage Pattern</h3>
+        <p class="text-sm text-[#444] mb-2">A practical and stylish mug with a simple heritage design reflecting a calm lifestyle. Perfect for coffee and tea, also suitable as a gift or decoration. High-quality ceramic with a blue handle for a modern touch.</p>
+        <p class="text-lg font-semibold text-[#b45309]">Price: 3 KWD</p>
+        <button class="bg-[#b45309] hover:bg-[#92400e] text-white font-semibold py-2 px-6 rounded-full transition duration-300">Order Now</button>
+      </div>
+<div class="bg-white p-6 rounded-lg shadow-md text-left">
+  <img src="assest/تيشيرت بوم.jpeg" alt="Boom T-Shirt" class="w-full h-[300px] object-cover rounded-md mb-4"/>
+  <h3 class="text-xl font-bold mb-2 text-[#222]">Boom T-Shirt</h3>
+  <p class="text-sm text-[#444] mb-2">Kuwaiti Boom ship over soft geometric waves. A simple, comfortable piece perfect for sea lovers and calm colors.</p>
+  <p class="text-lg font-semibold text-[#b45309]">Price: 10 KWD</p>
+  <button class="bg-[#b45309] hover:bg-[#92400e] text-white font-semibold py-2 px-6 rounded-full transition duration-300">Order Now</button>
+</div>
+
+<div class="bg-white p-6 rounded-lg shadow-md text-left">
+  <img src="assest/هودي العود.jpeg" alt="Oud Hoodie" class="w-full h-[300px] object-cover rounded-md mb-4"/>
+  <h3 class="text-xl font-bold mb-2 text-[#222]">Oud Hoodie</h3>
+  <p class="text-sm text-[#444] mb-2">Warm and luxurious hoodie featuring a golden Oud over turquoise waves. A refined artistic touch highlighting your taste.</p>
+  <p class="text-lg font-semibold text-[#b45309]">Price: 15 KWD</p>
+  <button class="bg-[#b45309] hover:bg-[#92400e] text-white font-semibold py-2 px-6 rounded-full transition duration-300">Order Now</button>
+</div>
+
+<div class="bg-white p-6 rounded-lg shadow-md text-left">
+  <img src="assest/هودي الهامور.jpeg" alt="Hamour Hoodie" class="w-full h-[300px] object-cover rounded-md mb-4"/>
+  <h3 class="text-xl font-bold mb-2 text-[#222]">Hamour Hoodie</h3>
+  <p class="text-sm text-[#444] mb-2">Navy hoodie with a golden Hamour fish design over dynamic waves.</p>
+  <p class="text-lg font-semibold text-[#b45309]">Price: 15 KWD</p>
+  <button class="bg-[#b45309] hover:bg-[#92400e] text-white font-semibold py-2 px-6 rounded-full transition duration-300">Order Now</button>
+</div>
+
+<div class="bg-white p-6 rounded-lg shadow-md text-left">
+  <img src="assest/هودي البوم.jpeg" alt="Boom Hoodie" class="w-full h-[300px] object-cover rounded-md mb-4"/>
+  <h3 class="text-xl font-bold mb-2 text-[#222]">Boom Hoodie</h3>
+  <p class="text-sm text-[#444] mb-2">Inspired by Kuwaiti maritime heritage. Boom ship over soft geometric waves with artistic touches. The front carries a small elegant version of the design.</p>
+  <p class="text-lg font-semibold text-[#b45309]">Price: 15 KWD</p>
+  <button class="bg-[#b45309] hover:bg-[#92400e] text-white font-semibold py-2 px-6 rounded-full transition duration-300">Order Now</button>
+</div>
+
+<div class="bg-white p-6 rounded-lg shadow-md text-left">
+  <img src="assest/هودي األفق - أسود.jpeg" alt="Horizon Hoodie Black" class="w-full h-[300px] object-cover rounded-md mb-4"/>
+  <h3 class="text-xl font-bold mb-2 text-[#222]">Horizon Hoodie – Black</h3>
+  <p class="text-sm text-[#444] mb-2">Strong artistic design: a Kuwaiti man gazes proudly at the sky with birds symbolizing freedom and ambition. A hoodie that gives presence and clear personality.</p>
+  <p class="text-lg font-semibold text-[#b45309]">Price: 15 KWD</p>
+  <button class="bg-[#b45309] hover:bg-[#92400e] text-white font-semibold py-2 px-6 rounded-full transition duration-300">Order Now</button>
+</div>
+
+<div class="bg-white p-6 rounded-lg shadow-md text-left">
+  <img src="assest/تيشيرت العود – رمادي.jpeg" alt="Oud T-Shirt Grey" class="w-full h-[300px] object-cover rounded-md mb-4"/>
+  <h3 class="text-xl font-bold mb-2 text-[#222]">Oud T-Shirt – Grey</h3>
+  <p class="text-sm text-[#444] mb-2">A T-shirt combining the beauty of music and the spirit of the sea. A golden Oud drawn over blue waves with spiral details that catch the eye.</p>
+  <p class="text-lg font-semibold text-[#b45309]">Price: 10 KWD</p>
+  <button class="bg-[#b45309] hover:bg-[#92400e] text-white font-semibold py-2 px-6 rounded-full transition duration-300">Order Now</button>
+</div>
+
+<div class="bg-white p-6 rounded-lg shadow-md text-left">
+  <img src="assest/كاب الهامور – أسود.jpeg" alt="Hamour Cap" class="w-full h-[300px] object-cover rounded-md mb-4"/>
+  <h3 class="text-xl font-bold mb-2 text-[#222]">Hamour Cap</h3>
+  <p class="text-sm text-[#444] mb-2">Practical cap with a golden Hamour fish design over waves. Combines maritime style with modern design. Lightweight, stable, and suits all casual looks.</p>
+  <p class="text-lg font-semibold text-[#b45309]">Price: 8 KWD</p>
+  <button class="bg-[#b45309] hover:bg-[#92400e] text-white font-semibold py-2 px-6 rounded-full transition duration-300">Order Now</button>
+</div>
+
+<div class="bg-white p-6 rounded-lg shadow-md text-left">
+  <img src="assest/هودي بيت الشعر – أسود .jpeg" alt="Bedouin Tent Hoodie" class="w-full h-[300px] object-cover rounded-md mb-4"/>
+  <h3 class="text-xl font-bold mb-2 text-[#222]">Bedouin Tent Hoodie</h3>
+  <p class="text-sm text-[#444] mb-2">Luxurious hoodie inspired by the Bedouin tent. Soft sandy lines and tent design across the back. The front carries a small logo in the same spirit.</p>
+  <p class="text-lg font-semibold text-[#b45309]">Price: 25 KWD</p>
+  <button class="bg-[#b45309] hover:bg-[#92400e] text-white font-semibold py-2 px-6 rounded-full transition duration-300">Order Now</button>
+</div>
+
+<div class="bg-white p-6 rounded-lg shadow-md text-left">
+  <img src="assest/ت يشيرت الجمل الهندسي.jpeg" alt="Geometric Camel Hoodie" class="w-full h-[300px] object-cover rounded-md mb-4"/>
+  <h3 class="text-xl font-bold mb-2 text-[#222]">Geometric Camel Hoodie</h3>
+  <p class="text-sm text-[#444] mb-2">Strong geometric design of a camel’s face. Clear golden details on soft brown fabric give a warm tone and strong presence. Perfect for lovers of modern Bedouin style.</p>
+  <p class="text-lg font-semibold text-[#b45309]">Price: 15 KWD</p>
+  <button class="bg-[#b45309] hover:bg-[#92400e] text-white font-semibold py-2 px-6 rounded-full transition duration-300">Order Now</button>
+</div>
+
+<div class="bg-white p-6 rounded-lg shadow-md text-left">
+  <img src="assest/مجموعة الصقر )هودي + تيشيرت + كاب.jpeg" alt="Falcon Collection" class="w-full h-[300px] object-cover rounded-md mb-4"/>
+  <h3 class="text-xl font-bold mb-2 text-[#222]">Falcon Collection</h3>
+  <p class="text-sm text-[#444] mb-2">A complete set featuring a falcon head in sharp "Low Poly" style, reflecting strength and precision. Natural falcon colors highlight the beauty of the design across hoodie, T-shirt, and cap.</p>
+  <p class="text-lg font-semibold text-[#b45309]">Price: Hoodie 15 KWD – T-Shirt 10 KWD – Cap 8 KWD</p>
+  <button class="bg-[#b45309] hover:bg-[#92400e] text-white font-semibold py-2 px-6 rounded-full transition duration-300">Order Now</button>
+</div>
+
+<div class="bg-white p-6 rounded-lg shadow-md text-left">
+  <img 
+    src="assest/هودي العود– رمادي فاتح.jpeg" 
+    alt="Oud Hoodie Light Grey" 
+    class="w-full h-[300px] object-cover rounded-md mb-4"
+  />
+  <h3 class="text-xl font-bold mb-2 text-[#222]">Oud Hoodie – Light Grey</h3>
+  <p class="text-sm text-[#444] mb-2">
+    Large golden Oud over gradient blue waves. A clear artistic design that gives the hoodie a unique presence and refined taste. Perfect for music and art lovers.
+  </p>
+  <p class="text-lg font-semibold text-[#b45309]">Price: 15 KWD</p>
+  <button class="bg-[#b45309] hover:bg-[#92400e] text-white font-semibold py-2 px-6 rounded-full transition duration-300">
+    Order Now
+  </button>
+</div>
+
+    </div>
+  </div>
+</section>
+
+
+<footer class="w-full bg-[#835034] py-10 px-5 md:px-10" dir="ltr">
+  <div class="w-full flex flex-col md:flex-row justify-between items-center md:items-start gap-8">
+
+    <div class="text-white flex flex-col items-center md:items-start text-center md:text-left">
+      
+      <div class="flex flex-col md:flex-row items-center md:gap-3 mb-8">
+        <img src="sedra-wave-small-Yle47l0kxaiqD6Bv.avif" class="w-20 mb-2 md:mb-0">
+        <h1 class="text-2xl font-bold">Sedra Voice</h1>
+      </div>
+
+      <div class="flex items-center gap-3 mb-2 justify-center md:justify-start">
+        <svg class="w-7 h-7" fill="none" stroke="white" stroke-width="1.5" viewBox="0 0 24 24">
+          <rect x="3" y="3" width="18" height="18" rx="5"></rect>
+          <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+          <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+        </svg>
+      </div>
+
+      <span class="text-lg">Contact Us:</span>
+      <p class="text-lg mb-1">+965-99911612</p>
+      <a href="mailto:Bodouralmualii@sawtsidra.com" class="underline text-[#e9d8c9]">
+        Bodouralmualii@sawtsidra.com
+      </a>
+    </div>
+
+    <div class="flex flex-col items-center md:items-start">
+      <img 
+        src="footer-m7VDLgX2oMU7v3Ng.avif"
+        class="w-full max-w-[420px] h-auto rounded-md shadow-lg"
+      >
+      <p class="text-white text-sm mt-3 text-center md:text-left">
+        © 2025. All rights reserved.
+      </p>
+    </div>
+
+  </div>
+</footer>
+
+
+</body>
+</html>
